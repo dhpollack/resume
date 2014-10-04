@@ -23,7 +23,7 @@ footer: true
 {% endfor %}
 
 ### **Education**
-* {{ site.data.resume.education.emory.degree[0] }} from {{ site.data.resume.education.emory.name }} in {{ site.data.resume.education.emory.gradyear }}
+* {{ site.data.resume.education.emory.degree[0] }} from [{{ site.data.resume.education.emory.name }}]({{ site.data.resume.education.emory.url }}) in {{ site.data.resume.education.emory.gradyear }}
 
 ### **Languages**
 {% for language_hash in site.data.resume.languages %}{% assign language = language_hash[1] %}
