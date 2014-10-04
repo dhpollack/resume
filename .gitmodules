@@ -6,7 +6,7 @@
 	url = https://github.com/vladigleba/readify.git
 [submodule ".themes/whitespace"]
 	path = .themes/whitespace
-	url = git://github.com/lucaslew/whitespace.git
+	url = https://github.com/lucaslew/whitespace.git
 [submodule ".themes/MediumFox"]
 	path = .themes/MediumFox
 	url = https://github.com/sevenadrian/MediumFox
