@@ -16,7 +16,7 @@ footer: true
 ### **Experience**
 
 {% for job_hash in site.data.resume.jobs %}{% assign job = job_hash[1] %}
-#### **{{ job.title }}** @ {{ job.name }} ({{ job.location }} — {{ job.start_date }}-{% if job.end_date %}{{ job.end_date }}{% else %}Present{% endif %})
+#### **{{ job.title }}** @ {{ job.name }} ({{ job.location }} — {{ job.start_date }}{% if job.end_date == job.start_date %}{% elsif job.end_date %}-{{ job.end_date }}{% else %}-Present{% endif %})
 
 {{ job.description.duolingo }}
 
