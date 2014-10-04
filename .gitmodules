@@ -7,3 +7,12 @@
 [submodule ".themes/whitespace"]
 	path = .themes/whitespace
 	url = git://github.com/lucaslew/whitespace.git
+[submodule ".themes/MediumFox"]
+	path = .themes/MediumFox
+	url = https://github.com/sevenadrian/MediumFox
+[submodule ".themes/SmallFox"]
+        path = .themes/SmallFox
+        url = https://github.com/lmm/SmallFox
+[submodule ".themes/mnmlpress"]
+        path = .themes/mnmlpress
+        url = https://github.com/tcnksm/mnmlpress
