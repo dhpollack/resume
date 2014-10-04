@@ -1,0 +1,175 @@
+basic_info:
+  name: David Pollack
+  emails:
+    - david@da3.net
+    - dhpollack@gmail.com
+    - david@cygmgmt.com
+    - david@sologourmand.com
+  phones:
+    - 13104713381
+    - 14044927766
+    - +49 152 0476 3223
+  addresses:
+    la:
+      fulladdress: '309 S Carmelina Ave, Los Angeles, CA 90049'
+    berlin:
+      fulladdress: 'Linienstr. 71, 10119 Berlin, Deutschland'
+
+objectives:
+  duolingo:
+    - Inspire other to have the courage to learn and speak a foreign language to make a leap of faith to live in a foreign country.
+
+jobs:
+  cygnus:
+    name: Cygnus Association Management
+    title: Cofounder
+    location: USA
+    start_date: 08012014
+    end_date:
+    description:
+      duolingo: "Founded an HOA (Homeowners' Association) management company to manage HOAs in Atlanta.  Responsible for finding technological solutions,  including but not limited to paperless post, intra-company communication, and financial services, to modernize a decidedly old-school industry.  Work 100% remotely."
+  rutli:
+    name: Rütli Schule
+    title: Volunteer Teacher
+    location: Berlin
+    start_date: 2013
+    end_date:
+    description:
+      duolingo: "Lead an optional English class for students in the 11th, 12th, and 13th class at the Rütlischule in Neukölln.  Teach the students how to use technology to help them learn English with sites such as Quizlet, Duolingo, and Free Rice.  Foster a welcoming atmosphere to encourage the students to overcome their fears of conversating in English with native speakers."
+  privatlehrer:
+    name: Private Tutor
+    title: Self-Employed
+    location: Berlin
+    start_date: 2013
+    end_date:
+    description:
+      duolingo: "Develop a personalized curriculum to ensure students excel at the GMAT, while minimizing the stress associated with taking such an important entrance exam."
+  prinessinnengarten:
+    name: Prinessinnengarten
+    title: Lebensmittelhelfer
+    location: Berlin
+    start_date: 2014
+    end_date:
+    description:
+      duolingo: "Ich arbeite im Café am Prinzessinnengarten in der Nähe Moritzplatz.  Meine Verantwortungen sind das Essen kochen, mit den Kunden reden und das Geschirr putzen.  Ich muss auf deutsch und auf englisch mit meinen Kollegen und den Kunden sprechen."
+  navigant:
+    name: Navigant
+    title: Senior Consultant
+    location:
+      - Atlanta
+      - Washington DC
+      - USA
+    start_date: 2006
+    end_date: 2013
+    description:
+      duolingo: "Completed re-underwrites of over 750 residential home loans for one of the five largest US banks.  Managed and reviewed team members' work product.  Developed a Java program to automate the retrieval of documents, transaction logs, and customer service logs from the client website cutting per-loan prep time by an order of a magnitude.  Performed a wide array of construction management analyses for projects in infrastructure, state-owned international oil companies, and multi-unit housing.  Promoted in 2007 and 2010."
+  joomla:
+    name: 'Joomla! Google Maps Plugin'
+    title: Creator
+    location: USA
+    start_date: 2005
+    end_date: 2005
+    description:
+      duolingo: "Developed and supported the first Google Maps API plugin for the popular CMS, Joomla! 1.0, in the PHP programming language.  Implemented a reverse geocoder prior to the inclusion of this feature in the official Google Maps API.  Provided customer support to thousands of users from all over the world.  Monetized the project with Google AdWords."
+  wholefoods:
+    name: Whole Foods Market
+    title: Chef
+    location: USA
+    start_date: 2005
+    end_date: 2006
+    description:
+      duolingo: "Prepared food to the quality and safety standards demanded by Whole Foods, the world's largest organic foods supermarket.  Provided excellent customer service to the market's high-end clientele."
+
+education:
+  emory:
+    name: Emory University
+    degree:
+      - Bachelors of Arts in Economics
+      - BA Economics
+      - Economics
+    gradyear: 2005
+    gpa:
+      overall: 3.171
+      major: 3.55
+    extracirriculars:
+      tourguide:
+        name: Tour Guide
+        description: add if needed
+  hw:
+    name: Harvard-Westlake School
+    degree:
+      - HS Diploma
+      - High School Diploma
+    gradyear: 2001
+    
+languages:
+  english:
+    english_name: english
+    native_name: english
+    level:
+      english: native
+      german: muttersprachler
+  german:
+    english_name: german
+    native_name: deutsch
+    level:
+      english: intermediate
+      german: mittelstufe
+  french:
+    english_name: french
+    native_name: français
+    level:
+      english: basic
+      french: débutant
+    
+extras:
+  duolingo:
+    username: maverickpl
+    accomplishments:
+      - 'Completed the trees for German and French (both from English)'
+      - 'Contributed dozens of new answers to several trees spanning across three languages in both production and beta language pairs'
+      - 'Game Levels: 17 in French (English -> French and German -> French), 16 in German, 9 in English (German -> English), and 5 in Spanish'
+      - 'Immersion Levels:  5 in German and 2 in French'
+      - 'Discussion board contributor'
+  test_scores:
+    gmat:
+      name: gmat
+      sections:
+        verbal:
+          score: 45
+          percentile: 99
+        quant:
+          score: 49
+          percentile: 83
+        overall:
+          score: 760
+          percentile: 99
+    gre:
+      name: gre
+      sections:
+        verbal:
+          score: 162
+          percentile: 89
+        quant:  
+          score: 164
+          percentile: 88
+  skills:
+    - 'working knowledge of Java, Python, CSS, HTML, Javascript, PHP, and SQL'
+    - 'excellent communication skills'
+    - 'adaptive work style'
+    - 'personable'
+  activities:
+    - duolingo
+    - openEdx contributor
+    - coursera
+    - 'freiwilligearbeiter @ Prinzessinnengarten'
+    - 'budget advisor @ Habitat for Humanity'
+    - 'MoBro @ Movember'
+    - 'green market Volunteer @ Piedmont Park'
+    - cycling
+  github:
+    username: dhpollack
+    contributions:
+      - edx
+      - dogecoin.com
+      - wikimedia jquery.18n
