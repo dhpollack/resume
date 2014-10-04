@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: http://dhpollack.github.io/resume/sitemap.xml
