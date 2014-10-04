@@ -16,7 +16,7 @@ footer: true
 ### **Experience**
 
 {% for job_hash in site.data.resume.jobs %}{% assign job = job_hash[1] %}
-#### **{{ job.title }}** @ {{ job.name }} ({{ job.location }} — {{ job.start_date }}{% if job.end_date == job.start_date %}{% elsif job.end_date %}-{{ job.end_date }}{% else %}-Present{% endif %})
+#### **{{ job.title }}** @ {{ job.name }} ({% if job.location[0] %}{{ job.location[0] }}{% else %}{{ job.location }}{% endif %} — {{ job.start_date }}{% if job.end_date == job.start_date %}{% elsif job.end_date %}-{{ job.end_date }}{% else %}-Present{% endif %})
 
 {{ job.description.duolingo }}
 
@@ -35,9 +35,8 @@ footer: true
 
 ### **Test Scores**
 {% for test_hash in site.data.resume.extras.test_scores %}{% assign test = test_hash[1] %}
- {{ forloop.index }}. {{ test_hash[0] | upcase }}{% for section_hash in test.sections %}{% assign section = section_hash[1] %}
-  * {{ section_hash[0] | capitalize }}: {{ section.score }} (Percentile: {{ section.percentile }}){% endfor %}
-{% endfor %}
+* {{ test_hash[0] | upcase }}{% for section_hash in test.sections %}{% assign section = section_hash[1] %}
+  - {{ section_hash[0] | capitalize }}: {{ section.score }} (Percentile: {{ section.percentile }}){% endfor %}{% endfor %}
 
 ### **Skills**
 {% for skill in site.data.resume.extras.skills %}
