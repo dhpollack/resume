@@ -1,6 +1,6 @@
 ---
 layout: empty
-title: "resume-test"
+title: "dhpollack.github.io/resume"
 date: 2014-10-04 00:13
 comments: true
 sharing: true
