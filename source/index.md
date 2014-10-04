@@ -11,7 +11,7 @@ footer: true
 
 ### **Objective**
 
-{{ site.data.resume.objectives.duolingo[0] }}
+{{ site.data.resume.objectives.general[0] }}
 
 ### **Experience**
 
