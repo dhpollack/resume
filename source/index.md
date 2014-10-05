@@ -9,7 +9,7 @@ footer: true
 
 # **{{ site.data.resume.basic_info.name }}**
 
-### **Objective**
+### **Ethos**
 
 {{ site.data.resume.objectives.general[0] }}
 
