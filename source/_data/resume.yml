@@ -24,7 +24,7 @@ objectives:
 jobs:
   cygnus:
     name: Cygnus Association Management
-    url: http://www.cygmgmt.com/
+    url: https://cygmgmt.com/
     title: Cofounder
     location: USA
     start_date: 2014-08-01 12:00:00 -0500
@@ -192,6 +192,18 @@ extras:
   github:
     username: dhpollack
     contributions:
-      - edx
-      - dogecoin.com
-      - wikimedia jquery.18n
+      edx:
+        name:
+        description:
+        prs:
+        url:
+      dogecoin:
+        name:
+        description:
+        prs:
+        url:
+      jqueryi18n:
+        name:
+        description:
+        prs:
+        url:

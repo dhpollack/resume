@@ -16,7 +16,9 @@ footer: true
 ### **Experience**
 
 {% for job_hash in site.data.resume.jobs %}{% assign job = job_hash[1] %}{% assign starttime = job.start_date | date: "%b %Y" %}{% assign endtime = job.end_date | date: "%b %Y" %}
-#### **{{ job.title }}** @ {% if job.url %}[{{ job.name }}]({{ job.url }}){% else %}{{ job.name }}{% endif %} ({% if job.location[0] %}{{ job.location[0] }}{% else %}{{ job.location }}{% endif %} — {{ job.start_date | date: "%b %Y" }}{% if endtime == starttime %}{% elsif job.end_date %} - {{ job.end_date | date: "%b %Y" }}{% else %} - Present{% endif %})
+#### **{{ job.title }}** @ {% if job.url %}[{{ job.name }}]({{ job.url }}){% else %}{{ job.name }}{% endif %} {#experience-entry}
+
+###### ({% if job.location[0] %}{{ job.location[0] }}{% else %}{{ job.location }}{% endif %} — {{ job.start_date | date: "%b %Y" }}{% if endtime == starttime %}{% elsif job.end_date %} - {{ job.end_date | date: "%b %Y" }}{% else %} - Present{% endif %}) {#place-time}
 
 {{ job.description.duolingo }}
 
@@ -46,5 +48,6 @@ footer: true
 {% for activity in site.data.resume.extras.activities %}
 * {{ activity | capitalize }}{% endfor %}
 
-|| {{ site.data.resume.basic_info.addresses.berlin.fulladdress }} ||| {{ site.data.resume.basic_info.phones[2] }} ||| {{ site.data.resume.basic_info.emails[0] }} ||
+
+\| {{ site.data.resume.basic_info.addresses.berlin.fulladdress }} \| {{ site.data.resume.basic_info.phones[2] }} \| {{ site.data.resume.basic_info.emails[0] }} \|
 

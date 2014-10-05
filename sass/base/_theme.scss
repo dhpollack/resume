@@ -17,7 +17,7 @@ $title-color: #777777 !default;
 $subtitle-color: lighten($title-color, 25) !default;
 
 // Main Text Colors
-$subheader-color: lighten($title-color, 5) !default;
+$subheader-color: #222 !default;
 $text-color: #222 !default;
 $text-color-light: lighten($text-color, 60) !default;
 $type-border: #ddd !default;

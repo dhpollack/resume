@@ -33,15 +33,19 @@ destination: public/resume
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
-markdown: rdiscount
+markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-rdiscount:
-  extensions:
-    - autolink
-    - footnotes
-    - smart
-highlighter: pygments # default python pygments have been replaced by pygments.rb
+kramdown:
+  toc_levels: 1..6
+
+#rdiscount:
+#  extensions:
+#    - autolink
+#    - footnotes
+#    - smart
+
+#highlighter: pygments # default python pygments have been replaced by pygments.rb
 
 paginate: 10          # Posts per page on the blog index
 paginate_path: "posts/:num"  # Directory base for pagination URLs eg. /posts/2/
