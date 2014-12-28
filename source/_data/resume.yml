@@ -175,11 +175,17 @@ extras:
       registration:
         apptid: 8800000002481674
         regid: 7265035
+    testdaf:
+      name: TestDAF
+      url: https://www.testdaf.de/
+      date: 2014-11-13 09:00:00 +0100
+      sections:
+        leseverstehen: 3
+        hörverstehen: 3
+        schriftlicher_ausdruck: 3
+        mündlicher_ausdruck: 'U3'
   skills:
-    - 'working knowledge of Java, Python, CSS, HTML, Javascript, PHP, and SQL'
-    - 'excellent communication skills'
-    - 'adaptive work style'
-    - 'personable'
+    - 'working knowledge of Java, Python, CSS, HTML, Javascript, PHP, and (No)SQL'
   activities:
     - duolingo
     - openEdx contributor
