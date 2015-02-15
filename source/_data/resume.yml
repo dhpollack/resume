@@ -13,7 +13,7 @@ basic_info:
     la:
       fulladdress: '309 S Carmelina Ave, Los Angeles, CA 90049'
     berlin:
-      fulladdress: 'Linienstr. 71, 10119 Berlin, Deutschland'
+      fulladdress: 'Weisestr. 60, 12049 Berlin, Deutschland'
 
 objectives:
   duolingo:
@@ -25,8 +25,8 @@ jobs:
   cygnus:
     name: Cygnus Association Management
     url: https://cygmgmt.com/
-    title: Cofounder
-    location: USA
+    title: Cofounder and CTO
+    location: Atlanta
     start_date: 2014-08-01 12:00:00 -0500
     end_date:
     description:
@@ -213,3 +213,83 @@ extras:
         description:
         prs:
         url:
+  moocs:
+    certificates:
+      -
+        name: A Beginner's Guide to Irrational Behavior
+        institution: Duke University
+        cert: Statement of Accomplishment
+        platform: Coursera
+        date: 2013-05-13 12:00:00 +0100
+      -
+        name: Competitive Strategy
+        institution: Ludwig-Maximilians-Universität München (LMU)
+        cert: Statement of Accomplishment with Distinction
+        platform: Coursera
+        date: 2014-09-13 12:00:00 +0100
+      -
+        name: Advanced Competitive Strategy
+        institution: Ludwig-Maximilians-Universität München (LMU)
+        cert: Statement of Accomplishment with Distinction
+        platform: Coursera
+        date: 2014-09-23 12:00:00 +0100
+      -
+        name: Introduction to Recommender Systems
+        institution: University of Minnesota
+        cert: Statement of Accomplishment
+        platform: Coursera
+        date: 2014-01-05 12:00:00 +0100
+      -
+        name: 'Introduction to Art: Concepts & Techniques'
+        institution: Penn State University
+        cert: Statement of Accomplishment
+        platform: Coursera
+        date: 2013-07-16 12:00:00 +0100
+      -
+        name: 'Developing Innovative Ideas for New Companies: The 1st Step in Entrepreneurship'
+        institution: University of Maryland
+        cert: Statement of Accomplishment
+        platform: Coursera
+        date: 2013-07-16 12:00:00 +0100
+      -
+        name: Gamification
+        institution: University of Pennsylvania
+        cert: Statement of Accomplishment
+        platform: Coursera
+        date: 2013-05-19 12:00:00 +0100
+      -
+        name: The Global Business of Sports
+        institution: University of Pennsylvania
+        cert: Statement of Accomplishment
+        platform: Coursera
+        date: 2013-10-16 12:00:00 +0100
+      -
+        name: An Introduction to Marketing
+        institution: University of Pennsylvania
+        cert: Statement of Accomplishment
+        platform: Coursera
+        date: 2014-01-14 12:00:00 +0100
+      -
+        name: '3.01x: Age of Globalization' 
+        institution: University of Texas Austin
+        cert: Certificate
+        platform: edX
+        date: 2014-01-14 12:00:00 +0100
+      -
+        name: Making Sense of Data
+        institution: Google
+        cert: Certificate of Completion
+        platform: Google
+        date: 2014-04-01 12:00:00 +0100
+      -
+        name: The Future of Storytelling
+        institution: Fachhochschule Potsdam
+        cert: Statement of Participation
+        platform: Iversity
+        date: 2013-12-01 12:00:00 +0100
+      -
+        name: 'CHEM181x: Food for Thought'
+        institution: McGill University
+        cert: Honor Code Attestation
+        platform: edX
+        date: 2014-05-01 12:00:00 +0100
