@@ -180,10 +180,14 @@ extras:
       url: https://www.testdaf.de/
       date: 2014-11-13 09:00:00 +0100
       sections:
-        leseverstehen: 3
-        hörverstehen: 3
-        schriftlicher_ausdruck: 3
-        mündlicher_ausdruck: 'U3'
+        leseverstehen: 
+          score: 3
+        hörverstehen: 
+          score: 3
+        schriftlicher_ausdruck: 
+          score: 3
+        mündlicher_ausdruck: 
+          score: 'U3'
   skills:
     - 'working knowledge of Java, Python, CSS, HTML, Javascript, PHP, and (No)SQL'
   activities:

@@ -38,7 +38,7 @@ footer: true
 ### **Test Scores**
 {% for test_hash in site.data.resume.extras.test_scores %}{% assign test = test_hash[1] %}
 * {{ test_hash[0] | upcase }}{% for section_hash in test.sections %}{% assign section = section_hash[1] %}
-  - {{ section_hash[0] | capitalize }}: {{ section.score }} (Percentile: {{ section.percentile }}){% endfor %}{% endfor %}
+  - {{ section_hash[0] | capitalize }}: {{ section.score }} {% if section.percentile %}(Percentile: {{ section.percentile }}){% endif %}{% endfor %}{% endfor %}
 
 ### **Skills**
 {% for skill in site.data.resume.extras.skills %}
