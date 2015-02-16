@@ -39,7 +39,7 @@
         var exclude_sections = [ "#dummy-section"];
         for( var i = 0; i < exclude_sections.length; i++) {
         var html_exclude_tag = $( exclude_sections[i] ).prop("tagName");
-            $( exclude_sections[i] ).nextUntil( html_exclude_tag ).andSelf().css("color", "red")
+            $( exclude_sections[i] ).nextUntil( html_exclude_tag ).andSelf().css("display", "none")
         }
     }
     $(document).ready(function() {
