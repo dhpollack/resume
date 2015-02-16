@@ -35,7 +35,7 @@
 <!--Exclude Var-->
 <script>
     function hidesections() {
-        var exclude_sections = ["#duolingo-accomplishments" ,"#testdaf" ,"#ethos" ,"#school-hw" ,"#gpa-entry" , "#dummy-section"];
+        var exclude_sections = ["#duolingo-accomplishments" ,"#testdaf" ,"#ethos" ,"#school-hw" ,".gpa-entry" , "#dummy-section"];
         for( var i = 0; i < exclude_sections.length; i++) {
         var html_exclude_tag = $( exclude_sections[i] ).prop("tagName");
             if(html_exclude_tag.charAt(0) == "H") {
@@ -112,8 +112,8 @@
 <ul>
   <li id="school-emory">Bachelors of Arts in Economics from <a href="http://www.emory.edu/">Emory University</a> in 2005
     <ul>
-      <li id="gpa-entry">Overall GPA: 3.171</li>
-      <li id="gpa-entry">Major GPA: 3.55</li>
+      <li id="gpa1" class="gpa-entry">Overall GPA: 3.171</li>
+      <li id="gpa2" class="gpa-entry">Major GPA: 3.55</li>
     </ul>
   </li>
   <li id="school-hw">High School Diploma from <a href="http://www.hw.com/">Harvard-Westlake School</a> in 2001</li>
