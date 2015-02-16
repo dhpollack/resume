@@ -36,7 +36,7 @@
 <script>
     var exclude_sections = ["#duolingo-accomplishments" , "#dummy-section"];
     for( var i = 0; i < exclude_sections.length; i++) {
-      var html_exclude_tag = $( exclude_sections[i] ).get(0).prop("tagName");
+      var html_exclude_tag = $( exclude_sections[i] ).prop("tagName");
       $( exclude_sections[i] ).nextUntil( html_exclude_tag ).css("color", "red")
     }
 </script>
