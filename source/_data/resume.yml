@@ -23,7 +23,8 @@ objectives:
     - Be curious.  Embrace nervous anticipation.  Always fear failure to try, but never to fail.
 
 jobs:
-  cygnus:
+  -
+    id: cygnus
     name: Cygnus Association Management
     url: https://cygmgmt.com/
     title: Cofounder and CTO
@@ -31,8 +32,10 @@ jobs:
     start_date: 2014-08-01 12:00:00 -0500
     end_date:
     description:
+      general: "Founded an HOA (Homeowners' Association) management company to manage HOAs in Atlanta.  Responsible for finding, implementing, and maintaining the organizations technological solutions, including but not limited to paperless post, email system, productivity software, company web presence, and payment services.  Collaborate with other cofounders regarding all aspects of the company.  Customer support as needed.  Work 100% remotely."
       duolingo: "Founded an HOA (Homeowners' Association) management company to manage HOAs in Atlanta.  Responsible for finding technological solutions,  including but not limited to paperless post, intra-company communication, and financial services, to modernize a decidedly old-school industry.  Work 100% remotely."
-  rutli:
+  -
+    id: rutli
     name: Rütli Schule
     url: http://en.wikipedia.org/wiki/Rütli_School
     title: Volunteer Teacher
@@ -40,8 +43,10 @@ jobs:
     start_date: 2014-01-14 12:00:00 +0100
     end_date:
     description:
+      general: "Lead an optional English class for students in the 11th, 12th, and 13th class at the Rütlischule in Neukölln.  Teach the students how to use technology to help them learn English with sites such as Quizlet, Duolingo, and Free Rice.  Foster a welcoming atmosphere to encourage the students to overcome their fears of conversating in English with native speakers."
       duolingo: "Lead an optional English class for students in the 11th, 12th, and 13th class at the Rütlischule in Neukölln.  Teach the students how to use technology to help them learn English with sites such as Quizlet, Duolingo, and Free Rice.  Foster a welcoming atmosphere to encourage the students to overcome their fears of conversating in English with native speakers."
-  privatlehrer:
+  -
+    id: privatlehrer
     name: Private Tutor
     title: Self-Employed
     url: 
@@ -49,8 +54,10 @@ jobs:
     start_date: 2013-06-24 12:00:00 +0100
     end_date:
     description:
+      general: "Develop a personalized curriculum to ensure students excel at the GMAT, while minimizing the stress associated with taking such an important entrance exam."
       duolingo: "Develop a personalized curriculum to ensure students excel at the GMAT, while minimizing the stress associated with taking such an important entrance exam."
-  prinessinnengarten:
+  -
+    id: prinessinnengarten
     name: Prinessinnengarten
     title: Lebensmittelhelfer
     url: http://prinzessinnengarten.net/
@@ -58,8 +65,10 @@ jobs:
     start_date: 2014-07-15 12:00:00 +0100
     end_date:
     description:
+      general: "Ich arbeite im Café am Prinzessinnengarten in der Nähe Moritzplatz.  Meine Verantwortungen sind das Essen kochen, mit den Kunden reden und das Geschirr putzen.  Ich muss auf deutsch und auf englisch mit meinen Kollegen und den Kunden sprechen."
       duolingo: "Ich arbeite im Café am Prinzessinnengarten in der Nähe Moritzplatz.  Meine Verantwortungen sind das Essen kochen, mit den Kunden reden und das Geschirr putzen.  Ich muss auf deutsch und auf englisch mit meinen Kollegen und den Kunden sprechen."
-  navigant:
+  -
+    id: navigant
     name: Navigant
     title: Senior Consultant
     url: http://www.navigant.com/
@@ -70,8 +79,10 @@ jobs:
     start_date: 2006-09-01 12:00:00 +0100
     end_date: 2013-04-01 12:00:00 +0100
     description:
+      general: "Completed re-underwrites of over 750 residential home loans for one of the five largest US banks.  Managed and reviewed team members' work product.  Developed a Java program to automate the retrieval of documents, transaction logs, and customer service logs from the client website cutting per-loan prep time by an order of a magnitude.  Performed a wide array of construction management analyses for projects in infrastructure, state-owned international oil companies, and multi-unit housing.  Promoted in 2007 and 2010."
       duolingo: "Completed re-underwrites of over 750 residential home loans for one of the five largest US banks.  Managed and reviewed team members' work product.  Developed a Java program to automate the retrieval of documents, transaction logs, and customer service logs from the client website cutting per-loan prep time by an order of a magnitude.  Performed a wide array of construction management analyses for projects in infrastructure, state-owned international oil companies, and multi-unit housing.  Promoted in 2007 and 2010."
-  joomla:
+  -
+    id: joomla
     name: 'Joomla! Google Maps Plugin'
     url: http://en.wikipedia.org/wiki/Joomla
     title: Creator
@@ -79,8 +90,10 @@ jobs:
     start_date: 2005-06-01 12:00:00 +0100
     end_date: 2006-09-01 12:00:00 +0100
     description:
+      general: "Developed and supported the first Google Maps API plugin for the popular CMS, Joomla! 1.0, in the PHP programming language.  Implemented a reverse geocoder prior to the inclusion of this feature in the official Google Maps API.  Provided customer support to thousands of users from all over the world.  Monetized the project with Google AdWords."
       duolingo: "Developed and supported the first Google Maps API plugin for the popular CMS, Joomla! 1.0, in the PHP programming language.  Implemented a reverse geocoder prior to the inclusion of this feature in the official Google Maps API.  Provided customer support to thousands of users from all over the world.  Monetized the project with Google AdWords."
-  wholefoods:
+  -
+    id: wholefoods
     name: Whole Foods Market
     url: http://www.wholefoodsmarket.com/
     title: Chef
@@ -88,10 +101,12 @@ jobs:
     start_date: 2005-09-01 12:00:00 +0100
     end_date: 2005-06-01 12:00:00 +0100
     description:
+      general: "Prepared food to the quality and safety standards demanded by Whole Foods, the world's largest organic foods supermarket.  Provided excellent customer service to the market's high-end clientele."
       duolingo: "Prepared food to the quality and safety standards demanded by Whole Foods, the world's largest organic foods supermarket.  Provided excellent customer service to the market's high-end clientele."
 
 education:
-  emory:
+  -
+    id: emory
     name: Emory University
     url: http://www.emory.edu/
     degree:
@@ -106,30 +121,34 @@ education:
       tourguide:
         name: Tour Guide
         description: add if needed
-  hw:
+  -
+    id: hw
     name: Harvard-Westlake School
     url: http://www.hw.com/
     degree:
-      - HS Diploma
       - High School Diploma
+      - HS Diploma
     gradyear: 2001
     
 languages:
-  english:
-    english_name: english
-    native_name: english
+  -
+    name:
+      english: english
+      native: english
     level:
       english: native
       german: muttersprachler
-  german:
-    english_name: german
-    native_name: deutsch
+  -
+    name:
+      english: german
+      native: deutsch
     level:
       english: intermediate
       german: mittelstufe
-  french:
-    english_name: french
-    native_name: français
+  -
+    name:
+      english: french
+      native: français
     level:
       english: basic
       french: débutant
@@ -145,61 +164,70 @@ extras:
       - 'Immersion Levels:  5 in German and 2 in French'
       - 'Discussion board contributor'
   test_scores:
-    gmat:
-      name: gmat
+    -
+      name: GMAT
       url: http://www.mba.com/global/the-gmat-exam/gmat-exam-scoring/your-score-report/what-percentile-rankings-mean.aspx
       date: 2012-07-26 12:00:00 +0100
       sections:
-        verbal:
+        -
+          name: Verbal
           score: 45
           percentile: 99
-        quant:
+        -
+          name: Quant
           score: 49
           percentile: 83
-        overall:
+        -
+          name: Overall
           score: 760
           percentile: 99
       registration:
         regid: 100001897206
         apptid: 248450504
-    gre:
-      name: gre
+    -
+      name: GRE
       url: https://www.ets.org/s/gre/pdf/gre_guide.pdf
       date: 2014-09-29 09:00:00 +0100
       sections:
-        verbal:
+        -
+          name: Verbal
           score: 162
           percentile: 89
-        quant:  
+        -
+          name: Quant  
           score: 164
           percentile: 88
       registration:
         apptid: 8800000002481674
         regid: 7265035
-    testdaf:
+    -
       name: TestDAF
       url: https://www.testdaf.de/
       date: 2014-11-13 09:00:00 +0100
       sections:
-        leseverstehen: 
+        -
+          name: Leseverstehen 
           score: 3
-        hörverstehen: 
+        -
+          name: Hörverstehen 
           score: 3
-        schriftlicher_ausdruck: 
+        -
+          name: Schriftlicher Ausdruck 
           score: 3
-        mündlicher_ausdruck: 
-          score: 'U3'
+        -
+          name: Mündlicher Ausdruck 
+          score: 'unter 3'
   skills:
-    - 'working knowledge of Java, Python, CSS, HTML, Javascript, PHP, and (No)SQL'
+    - 'Working knowledge of Java, Python, CSS, HTML, Javascript, PHP, and (No)SQL'
   activities:
-    - duolingo
-    - openEdx contributor
-    - coursera
-    - 'freiwilligearbeiter @ Prinzessinnengarten'
-    - 'budget advisor @ Habitat for Humanity'
+    - Duolingo
+    - OpenEdx Contributor
+    - Coursera
+    - 'Freiwilligearbeiter @ Prinzessinnengarten'
+    - 'Budget Advisor @ Habitat for Humanity'
     - 'MoBro @ Movember'
-    - 'green market Volunteer @ Piedmont Park'
-    - cycling
+    - 'Green Market Volunteer @ Piedmont Park'
+    - Cycling
   github:
     username: dhpollack
     contributions:
@@ -221,80 +249,106 @@ extras:
   moocs:
     certificates:
       -
+        id: irrational
         name: A Beginner's Guide to Irrational Behavior
         institution: Duke University
         cert: Statement of Accomplishment
         platform: Coursera
         date: 2013-05-13 12:00:00 +0100
+        certurl: https://drive.google.com/open?id=0Bwx922rqjhoWTUZDUmRvUmtGV0k
       -
+        id: compstrat
         name: Competitive Strategy
         institution: Ludwig-Maximilians-Universität München (LMU)
         cert: Statement of Accomplishment with Distinction
         platform: Coursera
         date: 2014-09-13 12:00:00 +0100
+        certurl: https://drive.google.com/open?id=0Bwx922rqjhoWZV9lNldCSkxFcms
       -
+        id: advcompstrat
         name: Advanced Competitive Strategy
         institution: Ludwig-Maximilians-Universität München (LMU)
         cert: Statement of Accomplishment with Distinction
         platform: Coursera
         date: 2014-09-23 12:00:00 +0100
+        certurl: https://drive.google.com/open?id=0Bwx922rqjhoWRlVZdFpONmhnUzg
       -
+        id: recsys
         name: Introduction to Recommender Systems
         institution: University of Minnesota
         cert: Statement of Accomplishment
         platform: Coursera
         date: 2014-01-05 12:00:00 +0100
+        certurl: https://drive.google.com/open?id=0Bwx922rqjhoWc1pEYTNhMlVPTGM
       -
+        id: introart
         name: 'Introduction to Art: Concepts & Techniques'
         institution: Penn State University
         cert: Statement of Accomplishment
         platform: Coursera
         date: 2013-07-16 12:00:00 +0100
+        certurl: https://drive.google.com/open?id=0Bwx922rqjhoWNVRUZ29PUjdPOVE
       -
-        name: 'Developing Innovative Ideas for New Companies: The 1st Step in Entrepreneurship'
+        id: entrepreneurship
+        name: 'Developing Innovative Ideas'
         institution: University of Maryland
         cert: Statement of Accomplishment
         platform: Coursera
         date: 2013-07-16 12:00:00 +0100
+        certurl: https://drive.google.com/open?id=0Bwx922rqjhoWek4yV1kwV1BUY1E
       -
+        id: gamification
         name: Gamification
         institution: University of Pennsylvania
         cert: Statement of Accomplishment
         platform: Coursera
         date: 2013-05-19 12:00:00 +0100
+        certurl: https://drive.google.com/open?id=0Bwx922rqjhoWLVU3aElQSGJ2Mmc
       -
+        id: sportsbiz
         name: The Global Business of Sports
         institution: University of Pennsylvania
         cert: Statement of Accomplishment
         platform: Coursera
         date: 2013-10-16 12:00:00 +0100
+        certurl: https://drive.google.com/open?id=0Bwx922rqjhoWLVRvclhaam1Sdk0
       -
+        id: intromarketing
         name: An Introduction to Marketing
         institution: University of Pennsylvania
         cert: Statement of Accomplishment
         platform: Coursera
         date: 2014-01-14 12:00:00 +0100
+        certurl: https://drive.google.com/open?id=0Bwx922rqjhoWTHNhUGxKUHY0NW8
       -
+        id: globalization
         name: '3.01x: Age of Globalization' 
         institution: University of Texas Austin
         cert: Certificate
         platform: edX
         date: 2014-01-14 12:00:00 +0100
+        certurl: https://drive.google.com/open?id=0Bwx922rqjhoWVU1tdkJBQVhJa2c
       -
+        id: makingsensedata
         name: Making Sense of Data
         institution: Google
         cert: Certificate of Completion
         platform: Google
         date: 2014-04-01 12:00:00 +0100
+        certurl: https://drive.google.com/open?id=0Bwx922rqjhoWZ2tUWmVKb0c0azA
       -
+        id: storytelling
         name: The Future of Storytelling
         institution: Fachhochschule Potsdam
         cert: Statement of Participation
         platform: Iversity
         date: 2013-12-01 12:00:00 +0100
+        certurl: https://drive.google.com/open?id=0Bwx922rqjhoWcWFPRTJOam53dkU
       -
+        id: chem181
         name: 'CHEM181x: Food for Thought'
         institution: McGill University
         cert: Honor Code Attestation
         platform: edX
         date: 2014-05-01 12:00:00 +0100
+        certurl: https://drive.google.com/open?id=0Bwx922rqjhoWRXllVExtaHVlc2c
