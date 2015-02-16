@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[David Pollack - Resume]]></title>
-  <link href="http://dhpollack.github.io/resume/atom.xml" rel="self"/>
-  <link href="http://dhpollack.github.io/resume/"/>
-  <updated>2015-02-15T23:17:56+00:00</updated>
-  <id>http://dhpollack.github.io/resume/</id>
+  <link href="http://resume.da3.net/atom.xml" rel="self"/>
+  <link href="http://resume.da3.net/"/>
+  <updated>2015-02-16T06:35:07+00:00</updated>
+  <id>http://resume.da3.net/</id>
   <author>
     <name><![CDATA[David Pollack]]></name>
     
