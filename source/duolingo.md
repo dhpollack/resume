@@ -6,8 +6,8 @@ lang: english
 comments: true
 sharing: true
 footer: true
-employer: general
-description: "This is my generic resume.  This description should be changed for each potential employer"
+employer: duolingo
+description: "This is my Duolingo resume."
 hideid:
     - '#duolingo-accomplishments'
     - '#testdaf'

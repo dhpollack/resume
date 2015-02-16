@@ -7,7 +7,7 @@ title: David Pollack - Resume
 subtitle: A resume with Octopress.
 author: David Pollack
 simple_search: https://www.google.com/search
-description:
+description: Hi, here's the resume for David Pollack.
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -29,7 +29,7 @@ email:
 root: /
 permalink: /blog/:year/:month/:day/:title/
 source: source
-destination: public/resume
+destination: public
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
