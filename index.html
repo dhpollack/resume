@@ -35,10 +35,14 @@
 <!--Exclude Var-->
 <script>
     function hidesections() {
-        var exclude_sections = ["#duolingo-accomplishments" , "#dummy-section"];
+        var exclude_sections = ["#duolingo-accomplishments" ,"#testdaf" , "#dummy-section"];
         for( var i = 0; i < exclude_sections.length; i++) {
         var html_exclude_tag = $( exclude_sections[i] ).prop("tagName");
-            $( exclude_sections[i] ).nextUntil( html_exclude_tag ).andSelf().css("display", "none")
+            if(html_exclude_tag == "H") {
+                $( exclude_sections[i] ).nextUntil( html_exclude_tag ).andSelf().css("display", "none")
+            } else {
+                $( exclude_sections[i] ).css("display", "none")
+            }
         }
     }
     $(document).ready(function() {
