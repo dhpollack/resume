@@ -35,7 +35,7 @@
 <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <!--Exclude Var-->
 <script>
-    var exclude_sections = [ "dummy-section"];
+    var exclude_sections = [ "#dummy-section"];
     for( var i = 0; i < exclude_sections.length; i++) {
       var html_exclude_tag = $( exclude_sections[i] ).get(0).tagName;
       $( exclude_sections[i] ).nextUntil( html_exclude_tag ).css("color", "red")
