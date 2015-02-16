@@ -35,7 +35,7 @@
 <!--Exclude Var-->
 <script>
     function hidesections() {
-        var exclude_sections = ["#duolingo-accomplishments" ,"#testdaf" ,"#ethos" , "#dummy-section"];
+        var exclude_sections = ["#duolingo-accomplishments" ,"#testdaf" ,"#ethos" ,"#school-hw" ,"#gpa-entry" , "#dummy-section"];
         for( var i = 0; i < exclude_sections.length; i++) {
         var html_exclude_tag = $( exclude_sections[i] ).prop("tagName");
             if(html_exclude_tag.charAt(0) == "H") {
@@ -65,51 +65,58 @@
 
 <h3 id="experience"><strong>Experience</strong></h3>
 
-<h4 id="experience-entry"><strong>Cofounder and CTO</strong> @ <a href="https://cygmgmt.com/">Cygnus Association Management</a></h4>
+<h4 id="cygnus"><strong>Cofounder and CTO</strong> @ <a href="https://cygmgmt.com/">Cygnus Association Management</a></h4>
 
 <h6 id="place-time">(Atlanta — Aug 2014 - Present)</h6>
 
 <p>Founded an HOA (Homeowners’ Association) management company to manage HOAs in Atlanta.  Responsible for finding technological solutions,  including but not limited to paperless post, intra-company communication, and financial services, to modernize a decidedly old-school industry.  Work 100% remotely.</p>
 
-<h4 id="experience-entry"><strong>Volunteer Teacher</strong> @ <a href="http://en.wikipedia.org/wiki/Rütli_School">Rütli Schule</a></h4>
+<h4 id="rutli"><strong>Volunteer Teacher</strong> @ <a href="http://en.wikipedia.org/wiki/Rütli_School">Rütli Schule</a></h4>
 
 <h6 id="place-time">(Berlin — Jan 2014 - Present)</h6>
 
 <p>Lead an optional English class for students in the 11th, 12th, and 13th class at the Rütlischule in Neukölln.  Teach the students how to use technology to help them learn English with sites such as Quizlet, Duolingo, and Free Rice.  Foster a welcoming atmosphere to encourage the students to overcome their fears of conversating in English with native speakers.</p>
 
-<h4 id="experience-entry"><strong>Self-Employed</strong> @ Private Tutor</h4>
+<h4 id="privatlehrer"><strong>Self-Employed</strong> @ Private Tutor</h4>
 
 <h6 id="place-time">(Berlin — Jun 2013 - Present)</h6>
 
 <p>Develop a personalized curriculum to ensure students excel at the GMAT, while minimizing the stress associated with taking such an important entrance exam.</p>
 
-<h4 id="experience-entry"><strong>Lebensmittelhelfer</strong> @ <a href="http://prinzessinnengarten.net/">Prinessinnengarten</a></h4>
+<h4 id="prinessinnengarten"><strong>Lebensmittelhelfer</strong> @ <a href="http://prinzessinnengarten.net/">Prinessinnengarten</a></h4>
 
 <h6 id="place-time">(Berlin — Jul 2014 - Present)</h6>
 
 <p>Ich arbeite im Café am Prinzessinnengarten in der Nähe Moritzplatz.  Meine Verantwortungen sind das Essen kochen, mit den Kunden reden und das Geschirr putzen.  Ich muss auf deutsch und auf englisch mit meinen Kollegen und den Kunden sprechen.</p>
 
-<h4 id="experience-entry"><strong>Senior Consultant</strong> @ <a href="http://www.navigant.com/">Navigant</a></h4>
+<h4 id="navigant"><strong>Senior Consultant</strong> @ <a href="http://www.navigant.com/">Navigant</a></h4>
 
 <h6 id="place-time">(Atlanta — Sep 2006 - Apr 2013)</h6>
 
 <p>Completed re-underwrites of over 750 residential home loans for one of the five largest US banks.  Managed and reviewed team members’ work product.  Developed a Java program to automate the retrieval of documents, transaction logs, and customer service logs from the client website cutting per-loan prep time by an order of a magnitude.  Performed a wide array of construction management analyses for projects in infrastructure, state-owned international oil companies, and multi-unit housing.  Promoted in 2007 and 2010.</p>
 
-<h4 id="experience-entry"><strong>Creator</strong> @ <a href="http://en.wikipedia.org/wiki/Joomla">Joomla! Google Maps Plugin</a></h4>
+<h4 id="joomla"><strong>Creator</strong> @ <a href="http://en.wikipedia.org/wiki/Joomla">Joomla! Google Maps Plugin</a></h4>
 
 <h6 id="place-time">(Atlanta — Jun 2005 - Sep 2006)</h6>
 
 <p>Developed and supported the first Google Maps API plugin for the popular CMS, Joomla! 1.0, in the PHP programming language.  Implemented a reverse geocoder prior to the inclusion of this feature in the official Google Maps API.  Provided customer support to thousands of users from all over the world.  Monetized the project with Google AdWords.</p>
 
-<h4 id="experience-entry"><strong>Chef</strong> @ <a href="http://www.wholefoodsmarket.com/">Whole Foods Market</a></h4>
+<h4 id="wholefoods"><strong>Chef</strong> @ <a href="http://www.wholefoodsmarket.com/">Whole Foods Market</a></h4>
 
 <h6 id="place-time">(Atlanta — Sep 2005 - Jun 2005)</h6>
 
 <p>Prepared food to the quality and safety standards demanded by Whole Foods, the world’s largest organic foods supermarket.  Provided excellent customer service to the market’s high-end clientele.</p>
 
 <h3 id="education"><strong>Education</strong></h3>
+
 <ul>
-  <li>Bachelors of Arts in Economics from <a href="http://www.emory.edu/">Emory University</a> in 2005</li>
+  <li id="school-emory">Bachelors of Arts in Economics from <a href="http://www.emory.edu/">Emory University</a> in 2005
+    <ul>
+      <li id="gpa-entry">Overall GPA: 3.171</li>
+      <li id="gpa-entry">Major GPA: 3.55</li>
+    </ul>
+  </li>
+  <li id="school-hw">High School Diploma from <a href="http://www.hw.com/">Harvard-Westlake School</a> in 2001</li>
 </ul>
 
 <h3 id="languages"><strong>Languages</strong></h3>
@@ -159,19 +166,19 @@
 <h3 id="skills"><strong>Skills</strong></h3>
 
 <ul>
-  <li id="skill1">Working knowledge of java, python, css, html, javascript, php, and (no)sql</li>
+  <li id="skill1">Working knowledge of Java, Python, CSS, HTML, Javascript, PHP, and (No)SQL</li>
 </ul>
 
 <h3 id="activities"><strong>Activities</strong></h3>
 
 <ul>
   <li id="activity1">Duolingo</li>
-  <li id="activity2">Openedx contributor</li>
+  <li id="activity2">OpenEdx Contributor</li>
   <li id="activity3">Coursera</li>
-  <li id="activity4">Freiwilligearbeiter @ prinzessinnengarten</li>
-  <li id="activity5">Budget advisor @ habitat for humanity</li>
-  <li id="activity6">Mobro @ movember</li>
-  <li id="activity7">Green market volunteer @ piedmont park</li>
+  <li id="activity4">Freiwilligearbeiter @ Prinzessinnengarten</li>
+  <li id="activity5">Budget Advisor @ Habitat for Humanity</li>
+  <li id="activity6">MoBro @ Movember</li>
+  <li id="activity7">Green Market Volunteer @ Piedmont Park</li>
   <li id="activity8">Cycling</li>
 </ul>
 
