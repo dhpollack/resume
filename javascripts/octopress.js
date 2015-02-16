@@ -103,6 +103,7 @@ $('document').ready(function() {
   addCodeLineNumbers();
   getNav();
   addSidebarToggler();
+  hidesections();
 });
 
 // iOS scaling bug fix
