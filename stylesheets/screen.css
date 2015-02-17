@@ -2412,10 +2412,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* Sidebar colors */
 /* Core theme application */
 a {
-  color: #195ea2;
+  color: #222;
 }
 a:visited {
-  color: #275480;
+  color: #222;
 }
 a:focus {
   color: #0278ec;
@@ -4607,16 +4607,3 @@ figure a img, figure a video, figure a .flash-video {
   Imported. Load order is alphabetical and styles can be overriden in
   custom/_style.scss which is loaded after all plugin stylesheets.
 */
-.xp-entry {
-  padding-bottom: 0em;
-  margin-bottom: 0em;
-}
-
-div#content {
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
-.mooc-cert-entry a {
-  color: inherit !important;
-}
