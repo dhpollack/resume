@@ -1,31 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://resume.da3.net/blog/2015/02/17/using-octopress-for-resumes/</loc>
+    <lastmod>2015-02-17T10:21:12+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://resume.da3.net/duolingo.html</loc>
-    <lastmod>2015-02-17T09:50:19+00:00</lastmod>
+    <lastmod>2015-02-17T10:28:43+00:00</lastmod>
   </url>
   <url>
-    <loc>http://resume.da3.net/blog/</loc>
-    <lastmod>2015-02-17T09:50:19+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://resume.da3.net/archives/</loc>
-    <lastmod>2015-02-17T09:50:19+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://resume.da3.net/posts/</loc>
-    <lastmod>2015-02-17T09:50:19+00:00</lastmod>
+    <loc>http://resume.da3.net/general.html</loc>
+    <lastmod>2015-02-17T10:28:43+00:00</lastmod>
   </url>
   <url>
     <loc>http://resume.da3.net/blog/archives/</loc>
-    <lastmod>2015-02-17T09:50:19+00:00</lastmod>
+    <lastmod>2015-02-17T10:28:43+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://resume.da3.net/blog/</loc>
+    <lastmod>2015-02-17T10:28:43+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://resume.da3.net/posts/</loc>
+    <lastmod>2015-02-17T10:28:43+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://resume.da3.net/archives/</loc>
+    <lastmod>2015-02-17T10:28:43+00:00</lastmod>
   </url>
   <url>
     <loc>http://resume.da3.net/</loc>
-    <lastmod>2015-02-17T09:50:19+00:00</lastmod>
+    <lastmod>2015-02-17T10:28:43+00:00</lastmod>
   </url>
   <url>
     <loc>http://resume.da3.net/resume_template.html</loc>
-    <lastmod>2015-02-17T09:50:19+00:00</lastmod>
+    <lastmod>2015-02-17T10:28:43+00:00</lastmod>
   </url>
 </urlset>
