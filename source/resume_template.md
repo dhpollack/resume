@@ -1,5 +1,5 @@
 ---
-layout: empty
+layout: resume
 title: 
 date: 2014-10-04 00:13
 lang: english
@@ -16,4 +16,5 @@ hideid:
     - '.gpa-entry'
 ---
 
-{% include custom/resume.md %}
+
+this is the resume template
