@@ -1,1 +1,24 @@
-@import url("screen.css");body>header,nav,footer,aside,.toggle-sidebar,.pagination{display:none}html,body,article,#main,#content{background-color:#FFF;border-width:0px;margin:0px;padding:0px}
+/* Welcome to Compass. Use this file to define print styles.
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+@import url("screen.css");
+/* Article printing */
+body > header,
+nav,
+footer,
+aside,
+.toggle-sidebar,
+.pagination {
+  display: none;
+}
+
+html,
+body,
+article,
+#main,
+#content {
+  background-color: #FFF;
+  border-width: 0px;
+  margin: 0px;
+  padding: 0px;
+}
