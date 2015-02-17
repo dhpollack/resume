@@ -4,7 +4,7 @@
   <title><![CDATA[David Pollack - Resume]]></title>
   <link href="http://resume.da3.net/atom.xml" rel="self"/>
   <link href="http://resume.da3.net/"/>
-  <updated>2015-02-17T10:28:43+00:00</updated>
+  <updated>2015-02-17T11:16:32+00:00</updated>
   <id>http://resume.da3.net/</id>
   <author>
     <name><![CDATA[David Pollack]]></name>
@@ -22,7 +22,7 @@
 
 <p>Thus, I have used a data YAML and jekyll templates to easily create resumes that look nice on paper and on the computer while also having the ability to create multiple version of the document relatively quickly.</p>
 
-<p>Here is my <a href="http://resume.da3.net/general">generic resume</a>.</p>
+<p>Here is my <a href="http://resume.da3.net/general.html">generic resume</a>.</p>
 
 <p>Cheers,
 David</p>

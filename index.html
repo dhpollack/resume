@@ -6,10 +6,11 @@
 <head>
   <meta charset="utf-8">
   <title>David Pollack - Resume</title>
+  <meta name="robots" content="noindex, nofollow">
   <meta name="author" content="David Pollack">
 
   
-  <meta name="description" content="This is the homepage. This description should be changed for each potential employer">
+  <meta name="description" content="">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -17,8 +18,6 @@
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  
-  <link rel="canonical" href="http://resume.da3.net">
   <link href="/favicon.ico" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css">
@@ -36,7 +35,7 @@
 <!--Exclude Var-->
 <script>
     function hidesections() {
-        var exclude_sections = ["#duolingo-accomplishments" ,"#testdaf" ,"#ethos" ,"#school-hw" ,".gpa-entry"];
+        var exclude_sections = [];
         for( var i = 0; i < exclude_sections.length; i++) {
         var html_exclude_tag = $( exclude_sections[i] ).prop("tagName");
             if(html_exclude_tag.charAt(0) == "H") {
