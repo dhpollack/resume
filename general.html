@@ -10,7 +10,7 @@
   <meta name="author" content="David Pollack">
 
   
-  <meta name="description" content="This is my Duolingo resume.">
+  <meta name="description" content="This is the resume with no hidden fields.">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -39,7 +39,7 @@
 
 <script>
     function hidesections() {
-        var exclude_sections = ["#school-hw"];
+        var exclude_sections = [];
         for( var i = 0; i < exclude_sections.length; i++) {
         var html_exclude_tag = $( exclude_sections[i] ).prop("tagName");
             if(html_exclude_tag.charAt(0) == "H") {
