@@ -5,6 +5,10 @@
 <!--- MathJax Configuration -->
 <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <!--Exclude Var-->
+{% if page.layout == "resume" %}  
+    <link href="{{ root_url }}/stylesheets/custom/resume.css" media="screen, projection" rel="stylesheet">
+{% endif %}
+
 <script>
     function hidesections() {
         var exclude_sections = [{% for hidden_section in page.hideid %}"{{ hidden_section }}"{% if forloop.last == false %} ,{% endif %}{% endfor %}];

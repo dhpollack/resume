@@ -1,3 +1,8 @@
+{% if page.layout == "resume" %}
+<p>{% assign pdfPath = '/assets/pdfs/' %}
+  <a class="btn btn-default btn-sm" href="{{ page.path | replace: '.md', '' | prepend: pdfPath | append: '-letter.pdf' }}"><i class="fa fa-file-pdf-o"></i> PDF (Letter)</a>
+  <a class="btn btn-default btn-sm" href="{{ page.path | replace: '.md', '' | prepend: pdfPath | append: '-a4.pdf'}}"><i class="fa fa-file-pdf-o"></i> PDF (A4)</a>
+</p>{% endif %}
 <p>
   Copyright &copy; {{ site.time | date: "%Y" }} - {{ site.author }} -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a> | Themed with <a href="https://github.com/lucaslew/whitespace">Whitespace</a></span> |  Analytics by <a title="Real Time Web Analytics" href="http://clicky.com/100777772">Clicky</a>

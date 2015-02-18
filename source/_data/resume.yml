@@ -15,9 +15,9 @@ basic_info:
       prevaddress:
         - '206 11th St NE, Apt 304, Atlanta, GA 30309' 
     berlin:
-      fulladdress: 'Weisestr. 60, 12049 Berlin, Deutschland'
+      fulladdress: 'Weisestraße 60, 12049 Berlin'
       prevaddress:
-        - 'Linienstr. 71, 10119 Berlin, Deutschland' 
+        - 'Linienstr. 71, 10119 Berlin' 
 
 objectives:
   duolingo:
