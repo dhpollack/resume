@@ -2,6 +2,7 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
 @import url("screen.css");
+@import url("custom/resume.css");
 /* Article printing */
 body > header,
 nav,
