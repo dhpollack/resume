@@ -35,22 +35,6 @@
 <!--Exclude Var-->
 
 
-<script>
-    function hidesections() {
-        var exclude_sections = [];
-        for( var i = 0; i < exclude_sections.length; i++) {
-        var html_exclude_tag = $( exclude_sections[i] ).prop("tagName");
-            if(html_exclude_tag.charAt(0) == "H") {
-                $( exclude_sections[i] ).nextUntil( html_exclude_tag ).andSelf().css("display", "none")
-            } else {
-                $( exclude_sections[i] ).css("display", "none")
-            }
-        }
-    }
-    $(document).ready(function() {
-        hidesections();
-    })
-</script>
   
 
 </head>
@@ -93,6 +77,9 @@
 <ul>
   <li>
     <p><a href="/duolingo.html">David Pollack’s Resume - Duolingo</a></p>
+  </li>
+  <li>
+    <p><a href="/edx.html">David Pollack’s Resume - edX</a></p>
   </li>
   <li>
     <p><a href="/general.html">David Pollack’s Resume</a></p>
