@@ -68,10 +68,11 @@ jobs:
     url: http://prinzessinnengarten.net/
     location: Berlin
     start_date: 2014-07-15 12:00:00 +0100
-    end_date:
+    end_date: 2014-10-15 12:00:00 +0100
     description:
       general: "Ich arbeite im Café am Prinzessinnengarten in der Nähe Moritzplatz.  Meine Verantwortungen sind das Essen kochen, mit den Kunden reden und das Geschirr putzen.  Ich muss auf deutsch und auf englisch mit meinen Kollegen und den Kunden sprechen."
       duolingo: "Ich arbeite im Café am Prinzessinnengarten in der Nähe Moritzplatz.  Meine Verantwortungen sind das Essen kochen, mit den Kunden reden und das Geschirr putzen.  Ich muss auf deutsch und auf englisch mit meinen Kollegen und den Kunden sprechen."
+      edx: "Worked in a multicultural, multilingual kitchen at a popular community garden in Berlin.  In addition to cooking, my responsibilities included a significant amount of customer service duties in multiple languages with customers from all over the world."
   -
     id: navigant
     name: Navigant
@@ -235,21 +236,57 @@ extras:
   github:
     username: dhpollack
     contributions:
-      edx:
-        name:
-        description:
+      -
+        name: edX
+        description: "The open platform that powers edx.org, one of the top online education platforms in the world."
+        url: https://github.com/edx
+        prs: 
+          -
+            pullnumber: 1119
+            title: "Update README.md"
+            url: https://github.com/edx/configuration/pull/1119
+          -
+            pullnumber: 1166
+            title: "make backup of previous server-vars.yml"
+            url: https://github.com/edx/configuration/pull/1166
+          -
+            pullnumber: 1285
+            title: "added ansible task to add chris-lea ppas for current version nodejs"
+            url: https://github.com/edx/configuration/pull/1285
+          -
+            pullnumber: 1286
+            title: "COMMON_ENABLE_BASIC_AUTH to False in ansible/comment/defaults/main.yml"
+            url: https://github.com/edx/configuration/pull/1286
+      -
+        name: dogecoin.com
+        description: "The website site for the popular cryptocurrency known as Dogecoin."
+        url: https://github.com/dogecoin/dogecoin.com
         prs:
-        url:
-      dogecoin:
-        name:
-        description:
+          -
+            pullnumber: 46
+            title: "initial internationalization commit with jquery.i18n plugin"
+            url: https://github.com/dogecoin/dogecoin.com/pull/46
+          -
+            pullnumber: 48
+            title: "added internationalization back to main page"
+            url: https://github.com/dogecoin/dogecoin.com/pull/48
+          -
+            pullnumber: 49
+            title: "changes noted by user Moldu and .gitignore for testing"
+            url: https://github.com/dogecoin/dogecoin.com/pull/49
+          -
+            pullnumber: 59
+            title: "Added Gemfile for easier testing with Jekyll"
+            url: https://github.com/dogecoin/dogecoin.com/pull/59
+      -
+        name: jquery.i18n
+        description: "A jQuery based internationalization library." 
+        url: https://github.com/wikimedia/jquery.i18n
         prs:
-        url:
-      jqueryi18n:
-        name:
-        description:
-        prs:
-        url:
+          -
+            pullnumber: 71
+            title: "specified locale wasn't loading when dir was used in load()"
+            url: https://github.com/wikimedia/jquery.i18n/pull/71
   moocs:
     certificates:
       -

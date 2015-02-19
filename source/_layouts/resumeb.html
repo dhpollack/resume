@@ -4,12 +4,6 @@
   <header role="banner"><hgroup></hgroup></header>
   <div id="main">
     <div id="content">
-      {% for section in site.data.sections %}
-      <div id="{{ section | remove: '.' | append: '-section'}}">
-      {% capture my_section %}{% include custom/resume/{{ section }} %}{% endcapture %}
-        {{ my_section | markdownify }}
-      </div>
-      {% endfor %}
       {{ content | expand_urls: root_url }}
     </div>
   </div>

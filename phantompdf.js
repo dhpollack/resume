@@ -8,7 +8,7 @@ pathToRender = "source/assets/pdfs/"
 
 system = require("system");
 
-arrayOfUrls = ["resume-dhpollack.c9.io/duolingo.html", "resume-dhpollack.c9.io/general.html"];
+arrayOfUrls = ["resume-dhpollack.c9.io/duolingo.html", "resume-dhpollack.c9.io/general.html", "resume-dhpollack.c9.io/edx.html"];
 arrayOfPaperSizes = [
     {
         format: 'Letter',

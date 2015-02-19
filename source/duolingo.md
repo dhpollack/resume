@@ -1,7 +1,7 @@
 ---
 layout: resume
-title: 
-date: 2014-10-04 00:13
+title: David Pollack's Resume - Duolingo
+date: 2015-01-02 00:00
 lang: english
 comments: false
 sharing: false
@@ -15,5 +15,3 @@ hideid:
     - '#school-hw'
     - '.gpa-entry'
 ---
-
-{% include custom/resume.md %}
