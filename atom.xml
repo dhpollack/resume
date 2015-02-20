@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[David Pollack - Resume]]></title>
+  <title><![CDATA[resume.da3.net]]></title>
   <link href="http://resume.da3.net/atom.xml" rel="self"/>
   <link href="http://resume.da3.net/"/>
-  <updated>2015-02-19T14:04:09+00:00</updated>
+  <updated>2015-02-20T21:14:03+00:00</updated>
   <id>http://resume.da3.net/</id>
   <author>
     <name><![CDATA[David Pollack]]></name>
