@@ -6,16 +6,24 @@ lang: english
 employer: edx
 description: "This is my edX resume."
 hideid:
-    - '#duolingo-accomplishments'
     - '#gre'
-    - '#ethos'
     - '#school-hw'
     - '.gpa-entry'
-    - '#skills'
-    - '#activities'
     - '#dogecoincom'
     - '#jqueryi18n'
     - '#wholefoods'
+sections:
+    - xp.md
+    - ed.md
+    - lang.md
+    - tests.md
+    - mooc.md
+    - github.md
+    - footer.md
+xporder:
+    - "#cygnus-div"
+    - "#navigant-div"
+sortflag: false
 comments: false
 sharing: false
 footer: true

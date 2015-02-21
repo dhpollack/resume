@@ -7,29 +7,11 @@
 <!--Exclude Var-->
 {% if page.layout == "resume" %}  
     <link href="{{ root_url }}/stylesheets/custom/resume.css" media="screen, projection" rel="stylesheet">
-
-<script>
-    function hidesections() {
+    <script src="{{ root_url }}/javascripts/resume.js" type="text/javascript"></script>
+    <script src="{{ root_url }}/javascripts/libs/jquery.fn.sortable.js"></script>
+    <script>
         var exclude_sections = [{% for hidden_section in page.hideid %}"{{ hidden_section }}"{% if forloop.last == false %} ,{% endif %}{% endfor %}];
-        for( var i = 0; i < exclude_sections.length; i++) {
-        var html_exclude_tag = $( exclude_sections[i] ).prop("tagName");
-            if(html_exclude_tag.charAt(0) == "H") {
-                var all_headers_above = ""; 
-                var header_level = html_exclude_tag.charAt(1).valueOf();
-                for(header_level; header_level >= 1; header_level--) {
-                    all_headers_above += "H" + header_level;
-                    if(header_level != 1) {
-                        all_headers_above += ", ";
-                    }
-                }
-                $( exclude_sections[i] ).nextUntil( all_headers_above ).andSelf().css("display", "none")
-            } else {
-                $( exclude_sections[i] ).css("display", "none")
-            }
-        }
-    }
-    $(document).ready(function() {
-        hidesections();
-    })
-</script>
+        var sort_xp = [{% for xpod in page.xporder reversed %}"{{ xpod }}"{% if forloop.last == false %} ,{% endif %}{% endfor %}];
+        var sortFlag = {% if page.sortflag %}{{ page.sortflag }}{% else %}false{% endif %};
+    </script>
 {% endif %}

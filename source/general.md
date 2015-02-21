@@ -9,4 +9,7 @@ footer: true
 employer: general
 description: "This is the resume with no hidden fields."
 hideid:
+sections:
+xporder:
+sortflag: true
 ---

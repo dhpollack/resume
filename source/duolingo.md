@@ -9,7 +9,7 @@ footer: true
 employer: duolingo
 description: "This is my Duolingo resume."
 hideid:
-    - '#duolingo-accomplishments'
+    - '#moocmd-section'
     - '#testdaf'
     - '#ethos'
     - '#school-hw'

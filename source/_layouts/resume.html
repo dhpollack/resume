@@ -1,15 +1,17 @@
 {% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
 {% include head.html %}
 <body {% if page.body_id %} id="{{ page.body_id }}" {% endif %} {% if page.sidebar == false %} class="no-sidebar" {% endif %} class="collapse-sidebar sidebar-footer" >
-  <header role="banner"><hgroup></hgroup></header>
+  <header role="banner"><hgroup><h1>{{ site.data.resume.basic_info.name }}</h1></hgroup></header>
   <div id="main">
     <div id="content">
-      {% for section in site.data.sections %}
-      <div id="{{ section | remove: '.' | append: '-section'}}">
-      {% capture my_section %}{% include custom/resume/{{ section }} %}{% endcapture %}
-        {{ my_section | markdownify }}
+      <div id="resume-sections">
+        {% if page.sections %}{% assign sections = page.sections %}{% else %}{% assign sections = site.data.sections %}{% endif %}{% for section in sections %}
+        <div id="{{ section | remove: '.' | append: '-section'}}">
+        {% capture my_section %}{% include custom/resume/{{ section }} %}{% endcapture %}
+          {{ my_section | markdownify }}
+        </div>
+        {% endfor %}
       </div>
-      {% endfor %}
       {{ content | expand_urls: root_url }}
     </div>
   </div>
