@@ -19,12 +19,20 @@ function hidesections(exclude_sections) {
 function makeSortable(sortFlag) {
     if(sortFlag) {
         $( "ul" ).addClass( "resume-uls" );
-        $( ".resume-uls").sortable();
+        $( "li" ).wrapInner( "<span class='inner-list-item'></span>" );
+        $( ".resume-uls").each( function( index ){
+            $( this ).sortable({
+                group: "ul-sort-group" + index.toString(),
+                handle: ".inner-list-item"
+            });
+        });
         $( "#xp-section").sortable({
             group: "xp-sort-group",
+            handle: ".xp-title"
         });
         $( "#resume-sections").sortable({
             group: "sections-sort-group",
+            handle: ".section-header"
         });
     }
 }

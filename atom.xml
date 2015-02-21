@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[resume.da3.net]]></title>
+  <title><![CDATA[David Pollack's Resume/CV Builder]]></title>
   <link href="http://resume.da3.net/atom.xml" rel="self"/>
   <link href="http://resume.da3.net/"/>
-  <updated>2015-02-21T10:35:05+00:00</updated>
+  <updated>2015-02-21T19:15:37+00:00</updated>
   <id>http://resume.da3.net/</id>
   <author>
     <name><![CDATA[David Pollack]]></name>
@@ -18,11 +18,7 @@
     <link href="http://resume.da3.net/blog/2015/02/17/using-octopress-for-resumes/"/>
     <updated>2015-02-17T10:21:12+00:00</updated>
     <id>http://resume.da3.net/blog/2015/02/17/using-octopress-for-resumes</id>
-    <content type="html"><![CDATA[<p>So I got tired of editing Word, Google, Linkedin, etc, etc, etc to maintain my resume.  My main frustration was that in all of these formats the data and the presentation are intertwined.  I wanted to have something where I could resume most of the elements of the previous resume, but with small tweaks for the new employer.</p>
-
-<p>Thus, I have used a data YAML and jekyll templates to easily create resumes that look nice on paper and on the computer while also having the ability to create multiple version of the document relatively quickly.</p>
-
-<p>Here is my <a href="http://resume.da3.net/general.html">generic resume</a>.</p>
+    <content type="html"><![CDATA[<p>This is a test post.  Go checkout the <a href="http://resume.da3.net/about">About page</a> for more information on how this site was created.</p>
 
 <p>Cheers,
 David</p>
