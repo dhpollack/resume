@@ -1,5 +1,5 @@
 ### Experience
-
+{: .section-header }
 <div id="xp-section" class="xp-section-class">
 {% for job in site.data.resume.jobs %}{% assign starttime = job.start_date | date: "%b %Y" %}{% assign endtime = job.end_date | date: "%b %Y" %}{% capture xpmarkdown %}
 #### {{ job.title }} @ {% if job.url %}[{{ job.name }}]({{ job.url }}){:target="_blank" .job-url}{% else %}{{ job.name }}{% endif %} {#{{ job.id }}}

@@ -11,6 +11,6 @@ description: "This is the resume with no hidden fields."
 hideid:
 ---
 
-{% for page in site.pages %}{% if page.layout == "resume" %}
+{% for page in site.pages reversed %}{% if page.layout == "resume" %}
 - [{{ page.title }}]({{page.url}})
 {% endif %}{% endfor %}

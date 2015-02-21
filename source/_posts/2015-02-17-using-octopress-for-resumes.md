@@ -6,11 +6,7 @@ comments: false
 categories: 
 ---
 
-So I got tired of editing Word, Google, Linkedin, etc, etc, etc to maintain my resume.  My main frustration was that in all of these formats the data and the presentation are intertwined.  I wanted to have something where I could resume most of the elements of the previous resume, but with small tweaks for the new employer.
-
-Thus, I have used a data YAML and jekyll templates to easily create resumes that look nice on paper and on the computer while also having the ability to create multiple version of the document relatively quickly.
-
-Here is my [generic resume](/general.html).
+This is a test post.  Go checkout the [About page](/about) for more information on how this site was created.
 
 Cheers,
 David
