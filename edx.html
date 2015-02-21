@@ -23,7 +23,7 @@
   <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="resume.da3.net" type="application/atom+xml">
   <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" type="text/javascript"></script>
   <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
@@ -35,31 +35,13 @@
 <!--Exclude Var-->
   
     <link href="/stylesheets/custom/resume.css" media="screen, projection" rel="stylesheet">
-
-<script>
-    function hidesections() {
-        var exclude_sections = ["#duolingo-accomplishments" ,"#gre" ,"#ethos" ,"#school-hw" ,".gpa-entry" ,"#skills" ,"#activities" ,"#dogecoincom" ,"#jqueryi18n" ,"#wholefoods"];
-        for( var i = 0; i < exclude_sections.length; i++) {
-        var html_exclude_tag = $( exclude_sections[i] ).prop("tagName");
-            if(html_exclude_tag.charAt(0) == "H") {
-                var all_headers_above = ""; 
-                var header_level = html_exclude_tag.charAt(1).valueOf();
-                for(header_level; header_level >= 1; header_level--) {
-                    all_headers_above += "H" + header_level;
-                    if(header_level != 1) {
-                        all_headers_above += ", ";
-                    }
-                }
-                $( exclude_sections[i] ).nextUntil( all_headers_above ).andSelf().css("display", "none");
-            } else {
-                $( exclude_sections[i] ).css("display", "none");
-            }
-        }
-    }
-    $(document).ready(function() {
-        hidesections();
-    });
-</script>
+    <script src="/javascripts/resume.js" type="text/javascript"></script>
+    <script src="/javascripts/libs/jquery.fn.sortable.js"></script>
+    <script>
+        var exclude_sections = ["#gre" ,"#school-hw" ,".gpa-entry" ,"#dogecoincom" ,"#jqueryi18n" ,"#wholefoods"];
+        var sort_xp = ["#navigant-div" ,"#cygnus-div"];
+        var sortFlag = false;
+    </script>
 
 
   
@@ -67,76 +49,59 @@
 </head>
 
 <body   class="collapse-sidebar sidebar-footer" >
-  <header role="banner"><hgroup></hgroup></header>
+  <header role="banner"><hgroup><h1>David Pollack</h1></hgroup></header>
   <div id="main">
     <div id="content">
-      
-      <div id="namemd-section">
-      
-        <h1 id="david-pollack">David Pollack</h1>
+      <div id="resume-sections">
+        
+        <div id="xpmd-section">
+        
+          <h3 id="experience">Experience</h3>
 
-      </div>
-      
-      <div id="ethosmd-section">
-      
-        <h3 id="ethos">Ethos</h3>
-
-<p>Leverage my unique set of talents to solve problems facing your organization.</p>
-
-      </div>
-      
-      <div id="xpmd-section">
-      
-        <h3 id="experience">Experience</h3>
-
-<div id="cygnus-div">
-<h4 id="cygnus" class="xp-entry">Cofounder and CTO @ <a href="https://cygmgmt.com/" target="_blank" class="job-url">Cygnus Association Management</a></h4>
+<div id="xp-section" class="xp-section-class">
+<div id="cygnus-div" class="xp-entry-class">
+<h4 id="cygnus" class="xp-title">Cofounder and CTO @ <a href="https://cygmgmt.com/" target="_blank" class="job-url">Cygnus Association Management</a></h4>
 
 <h6 class="xp-time" id="atlanta--aug-2014---present">(Atlanta — Aug 2014 - Present)</h6>
 <p class="xp-desc">Founded an HOA (Homeowners’ Association) management company to manage HOAs in Atlanta.  Responsible for finding, implementing, and maintaining the organizations technological solutions, including but not limited to paperless post, email system, productivity software, company web presence, and payment services.  Collaborate with other cofounders regarding all aspects of the company.  Customer support as needed.  Work 100% remotely.  </p>
-</div>
-<div id="rutli-div">
-<h4 id="rutli" class="xp-entry">Volunteer Teacher @ <a href="http://en.wikipedia.org/wiki/Rütli_School" target="_blank" class="job-url">Rütli Schule</a></h4>
+</div><div id="rutli-div" class="xp-entry-class">
+<h4 id="rutli" class="xp-title">Volunteer Teacher @ <a href="http://en.wikipedia.org/wiki/Rütli_School" target="_blank" class="job-url">Rütli Schule</a></h4>
 
 <h6 class="xp-time" id="berlin--jan-2014---present">(Berlin — Jan 2014 - Present)</h6>
 <p class="xp-desc">Lead an optional English class for students in the 11th, 12th, and 13th class at the Rütlischule in Neukölln.  Teach the students how to use technology to help them learn English with sites such as Quizlet, Duolingo, and Free Rice.  Foster a welcoming atmosphere to encourage the students to overcome their fears of conversating in English with native speakers.  </p>
-</div>
-<div id="privatlehrer-div">
-<h4 id="privatlehrer" class="xp-entry">Self-Employed @ Private Tutor</h4>
+</div><div id="privatlehrer-div" class="xp-entry-class">
+<h4 id="privatlehrer" class="xp-title">Self-Employed @ Private Tutor</h4>
 
 <h6 class="xp-time" id="berlin--jun-2013---present">(Berlin — Jun 2013 - Present)</h6>
 <p class="xp-desc">Develop a personalized curriculum to ensure students excel at the GMAT, while minimizing the stress associated with taking such an important entrance exam.  </p>
-</div>
-<div id="prinessinnengarten-div">
-<h4 id="prinessinnengarten" class="xp-entry">Lebensmittelhelfer @ <a href="http://prinzessinnengarten.net/" target="_blank" class="job-url">Prinessinnengarten</a></h4>
+</div><div id="prinessinnengarten-div" class="xp-entry-class">
+<h4 id="prinessinnengarten" class="xp-title">Lebensmittelhelfer @ <a href="http://prinzessinnengarten.net/" target="_blank" class="job-url">Prinessinnengarten</a></h4>
 
 <h6 class="xp-time" id="berlin--jul-2014---oct-2014">(Berlin — Jul 2014 - Oct 2014)</h6>
 <p class="xp-desc">Worked in a multicultural, multilingual kitchen at a popular community garden in Berlin.  In addition to cooking, my responsibilities included a significant amount of customer service duties in multiple languages with customers from all over the world.  </p>
-</div>
-<div id="navigant-div">
-<h4 id="navigant" class="xp-entry">Senior Consultant @ <a href="http://www.navigant.com/" target="_blank" class="job-url">Navigant</a></h4>
+</div><div id="navigant-div" class="xp-entry-class">
+<h4 id="navigant" class="xp-title">Senior Consultant @ <a href="http://www.navigant.com/" target="_blank" class="job-url">Navigant</a></h4>
 
 <h6 class="xp-time" id="atlanta--sep-2006---apr-2013">(Atlanta — Sep 2006 - Apr 2013)</h6>
 <p class="xp-desc">Completed re-underwrites of over 750 residential home loans for one of the five largest US banks.  Managed and reviewed team members’ work product.  Developed a Java program to automate the retrieval of documents, transaction logs, and customer service logs from the client website cutting per-loan prep time by an order of a magnitude.  Performed a wide array of construction management analyses for projects in infrastructure, state-owned international oil companies, and multi-unit housing.  Promoted in 2007 and 2010.  </p>
-</div>
-<div id="joomla-div">
-<h4 id="joomla" class="xp-entry">Creator @ <a href="http://en.wikipedia.org/wiki/Joomla" target="_blank" class="job-url">Joomla! Google Maps Plugin</a></h4>
+</div><div id="joomla-div" class="xp-entry-class">
+<h4 id="joomla" class="xp-title">Creator @ <a href="http://en.wikipedia.org/wiki/Joomla" target="_blank" class="job-url">Joomla! Google Maps Plugin</a></h4>
 
 <h6 class="xp-time" id="atlanta--jun-2005---sep-2006">(Atlanta — Jun 2005 - Sep 2006)</h6>
 <p class="xp-desc">Developed and supported the first Google Maps API plugin for the popular CMS, Joomla! 1.0, in the PHP programming language.  Implemented a reverse geocoder prior to the inclusion of this feature in the official Google Maps API.  Provided customer support to thousands of users from all over the world.  Monetized the project with Google AdWords.  </p>
-</div>
-<div id="wholefoods-div">
-<h4 id="wholefoods" class="xp-entry">Chef @ <a href="http://www.wholefoodsmarket.com/" target="_blank" class="job-url">Whole Foods Market</a></h4>
+</div><div id="wholefoods-div" class="xp-entry-class">
+<h4 id="wholefoods" class="xp-title">Chef @ <a href="http://www.wholefoodsmarket.com/" target="_blank" class="job-url">Whole Foods Market</a></h4>
 
 <h6 class="xp-time" id="atlanta--sep-2005---jun-2005">(Atlanta — Sep 2005 - Jun 2005)</h6>
 <p class="xp-desc">Prepared food to the quality and safety standards demanded by Whole Foods, the world’s largest organic foods supermarket.  Provided excellent customer service to the market’s high-end clientele.  </p>
 </div>
+</div>
 
-      </div>
-      
-      <div id="edmd-section">
-      
-        <h3 id="education">Education</h3>
+        </div>
+        
+        <div id="edmd-section">
+        
+          <h3 id="education">Education</h3>
 
 <ul>
   <li id="school-emory">Bachelors of Arts in Economics from <a href="http://www.emory.edu/" target="_blank">Emory University</a> in 2005
@@ -148,11 +113,11 @@
   <li id="school-hw">High School Diploma from <a href="http://www.hw.com/" target="_blank">Harvard-Westlake School</a> in 2001</li>
 </ul>
 
-      </div>
-      
-      <div id="langmd-section">
-      
-        <h3 id="languages">Languages</h3>
+        </div>
+        
+        <div id="langmd-section">
+        
+          <h3 id="languages">Languages</h3>
 
 <ul>
   <li id="lang-english">English (native)</li>
@@ -160,25 +125,11 @@
   <li id="lang-french">French (basic)</li>
 </ul>
 
-      </div>
-      
-      <div id="duomd-section">
-      
-        <h3 id="duolingo-accomplishments">Duolingo Accomplishments</h3>
-<ul>
-  <li>Username: maverickpl</li>
-  <li>Completed the trees for German and French (both from English)</li>
-  <li>Contributed dozens of new answers to several trees spanning across three languages in both production and beta language pairs</li>
-  <li>Game Levels: 17 in French (English -&gt; French and German -&gt; French), 16 in German, 9 in English (German -&gt; English), and 5 in Spanish</li>
-  <li>Immersion Levels:  5 in German and 2 in French</li>
-  <li>Discussion board contributor</li>
-</ul>
-
-      </div>
-      
-      <div id="testsmd-section">
-      
-        <h3 id="test-scores">Test Scores</h3>
+        </div>
+        
+        <div id="testsmd-section">
+        
+          <h3 id="test-scores">Test Scores</h3>
 
 <ul>
   <li id="gmat">GMAT
@@ -204,11 +155,11 @@
   </li>
 </ul>
 
-      </div>
-      
-      <div id="moocmd-section">
-      
-        <h3 id="moocs">MOOCs</h3>
+        </div>
+        
+        <div id="moocmd-section">
+        
+          <h3 id="moocs">MOOCs</h3>
 
 <ul>
   <li id="irrational" class="mooc-cert-entry"><a href="https://drive.google.com/open?id=0Bwx922rqjhoWTUZDUmRvUmtGV0k" target="_blank">A Beginner’s Guide to Irrational Behavior</a> from Duke University (Coursera)</li>
@@ -226,11 +177,11 @@
   <li id="chem181" class="mooc-cert-entry"><a href="https://drive.google.com/open?id=0Bwx922rqjhoWRXllVExtaHVlc2c" target="_blank">CHEM181x: Food for Thought</a> from McGill University (edX)</li>
 </ul>
 
-      </div>
-      
-      <div id="githubmd-section">
-      
-        <h3 id="github">Github</h3>
+        </div>
+        
+        <div id="githubmd-section">
+        
+          <h3 id="github">Github</h3>
 <ul>
   <li>Username: <a href="https://github.com/dhpollack">dhpollack</a></li>
   <li id="edx" class="github-entry"><a href="https://github.com/edx" target="_blank">edX</a>
@@ -256,41 +207,15 @@
   </li>
 </ul>
 
+        </div>
+        
+        <div id="footermd-section">
+        
+          <p class="footer-info">| Weisestraße 60, 12049 Berlin | +49 152 0476 3223 | david@da3.net |</p>
+
+        </div>
+        
       </div>
-      
-      <div id="skillsmd-section">
-      
-        <h3 id="skills">Skills</h3>
-
-<ul>
-  <li id="skill1" class="skill-entry">Working knowledge of Java, Python, CSS, HTML, Javascript, PHP, and (No)SQL</li>
-</ul>
-
-      </div>
-      
-      <div id="activitiesmd-section">
-      
-        <h3 id="activities">Activities</h3>
-
-<ul>
-  <li id="activity1" class="activity-entry">Duolingo</li>
-  <li id="activity2" class="activity-entry">OpenEdx Contributor</li>
-  <li id="activity3" class="activity-entry">Coursera</li>
-  <li id="activity4" class="activity-entry">Freiwilligearbeiter @ Prinzessinnengarten</li>
-  <li id="activity5" class="activity-entry">Budget Advisor @ Habitat for Humanity</li>
-  <li id="activity6" class="activity-entry">MoBro @ Movember</li>
-  <li id="activity7" class="activity-entry">Green Market Volunteer @ Piedmont Park</li>
-  <li id="activity8" class="activity-entry">Cycling</li>
-</ul>
-
-      </div>
-      
-      <div id="footermd-section">
-      
-        <p class="footer-info">| Weisestraße 60, 12049 Berlin | +49 152 0476 3223 | david@da3.net |</p>
-
-      </div>
-      
       
 
     </div>
