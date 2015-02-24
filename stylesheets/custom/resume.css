@@ -16,6 +16,10 @@ a {
   text-align: center;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: lighter;
+}
+
 /*!
  * Bootstrap v3.3.2 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.

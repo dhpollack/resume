@@ -1,7 +1,7 @@
 function hidesections(exclude_sections) {
     for( var i = 0; i < exclude_sections.length; i++) {
     var html_exclude_tag = $( exclude_sections[i] ).prop("tagName");
-        if(html_exclude_tag.charAt(0) == "H") {
+        if(html_exclude_tag !== undefined && html_exclude_tag.charAt(0) == "H") {
             var all_headers_above = ""; 
             var header_level = html_exclude_tag.charAt(1).valueOf();
             for(header_level; header_level >= 1; header_level--) {
