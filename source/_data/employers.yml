@@ -1,3 +1,20 @@
 edx:
-    jobpostingurl: https://www.edx.org/jobs
+    name: edX
+    jobspecificpages:
+        - resumeurl
+        - coverletterurl
+        - postresponseurl
+    jobpostingurl: "https://www.edx.org/jobs#resumator-job-job_20150203192251_CJ9KEDD7EMJBLHRQ"
     jobtitle: Relationship Manager for Europe (Contract Role)
+    resumeurl:
+        name: Resume
+        url: /edx-resume
+    coverletterurl: 
+        name: Cover Letter
+        url: /edx-cover-letter
+    postresponseurl:
+        name: Posting Bullet Points
+        url: /edx-posting-response
+        icon: "fa fa-list"
+    coverletter:
+        greetings: Senior Relationship Manager for Europe at edX

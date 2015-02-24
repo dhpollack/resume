@@ -2,13 +2,16 @@
 // https://github.com/ariya/phantomjs/blob/master/examples/render_multi_url.js
 // Render Multiple URLs to file
 
-var RenderUrlsToFile, arrayOfUrls, arrayOfPaperSizes, pathToRender, system;
+var RenderUrlsToFile, arrayOfUrls, arrayOfPaperSizes, pathToRender, jsonFile, baseUrl, system;
 
-pathToRender = "source/assets/pdfs/"
+pathToRender = "source/assets/pdfs/";
+baseUrl = "https://resume-dhpollack.c9.io";
+jsonFile = "http://resume-dhpollack.c9.io/files.json";
+
 
 system = require("system");
 
-arrayOfUrls = ["resume-dhpollack.c9.io/duolingo.html", "resume-dhpollack.c9.io/general.html", "resume-dhpollack.c9.io/edx.html"];
+//arrayOfUrls = ["resume-dhpollack.c9.io/duolingo.html", "resume-dhpollack.c9.io/general.html", "resume-dhpollack.c9.io/edx-resume.html", "resume-dhpollack.c9.io/edx-posting-response.html", "resume-dhpollack.c9.io/edx-cover-letter.html"];
 arrayOfPaperSizes = [
     {
         format: 'Letter',
@@ -42,8 +45,7 @@ RenderUrlsToFile = function(urls, callbackPerUrl, callbackFinal) {
         var domain = matches[3];
         var filename = matches[4].replace("/"," ").trim().replace(" ", "-") + matches[6].replace(".html", "");
         
-        console.log("Domain: " + domain);
-        console.log("File: " + filename);
+        console.log("Loading: " + domain + "/" + filename);
         return pathToRender + filename + "-" + format + ".pdf";
     };
     next = function(status, url, file) {
@@ -59,7 +61,7 @@ RenderUrlsToFile = function(urls, callbackPerUrl, callbackFinal) {
             page = webpage.create();
             page.paperSize = arrayOfPaperSizes[0];
             page.settings.userAgent = "Phantom.js bot";
-            return page.open("http://" + url, function(status) {
+            return page.open(url, function(status) {
                 if (status === "success") {
                     return window.setTimeout((function() {
                         for(var i = 0; i < arrayOfPaperSizes.length; i++) {
@@ -68,7 +70,7 @@ RenderUrlsToFile = function(urls, callbackPerUrl, callbackFinal) {
                             page.render(file);
                         }
                         return next(status, url, urlIndex);
-                    }), 200);
+                    }), 350);
                 } else {
                     return next(status, url, urlIndex);
                 }
@@ -86,8 +88,23 @@ if (system.args.length > 1) {
     arrayOfUrls = Array.prototype.slice.call(system.args, 1);
 } else {
     console.log("Usage: phantomjs render_multi_url.js [domain.name1, domain.name2, ...]");
+    // This loads a json file that is created by Jekyll.
+    console.log(jsonFile);
+    var jpage = require('webpage').create();
+    jpage.open(jsonFile, function (status) {
+        if (status === "success") {
+            window.setTimeout((function() {
+                var content = jpage.plainText;
+                console.log("Content:" + content);
+                arrayOfUrls = JSON.parse(content);
+            }), 100);
+        } else {
+            console.log("Not successful");
+        }
+    });
 }
 
+window.setTimeout(function () {
 RenderUrlsToFile(arrayOfUrls, (function(status, url, file) {
     if (status !== "success") {
         return console.log("Unable to render '" + url + "'");
@@ -96,4 +113,6 @@ RenderUrlsToFile(arrayOfUrls, (function(status, url, file) {
     }
 }), function() {
     return phantom.exit();
-});
+});    
+}, 400);
+

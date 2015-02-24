@@ -4,9 +4,10 @@ title: Response to edX job posting
 date: 2015-01-02 00:00
 lang: english
 employer: edx
-description: "This is a reponse to the edX job posting for the Relationship Manager for Europe (Contract Role)."
+description: "This is a response to the edX job posting for the Relationship Manager for Europe (Contract Role)."
 comments: false
 sharing: false
+makepdf: true
 footer: true
 ---
 
@@ -60,7 +61,7 @@ __REQUIRED__:
 - Experience with enterprise business software such as Salesforce, Google Docs or Microsoft Office.
   * _I have administered Google Docs for Business instances since 2004 including currently our instance at Cygnus Association Management._
 - Experience working in the European market preferred.
-  * _I'm a [private tutor](/edx.html#privatlehrer-div) and (director of a volunteer English class)[/edx.html#rutli-div] in Berlin._
+  * _I'm a [private tutor](/edx-resume.html#privatlehrer-div) and (director of a volunteer English class)[/edx-resume.html#rutli-div] in Berlin._
 - May deal with confidential information and/or issues using discretion and judgment.
   * _This was a priority with my work concerning the housing crisis (i.e. dealing with personal financial information, etc)._
 - Other duties as required.
@@ -75,7 +76,7 @@ __PREFERRED__:
 - Demonstrated working knowledge of educational technologies, deploying SaaS technologies, or content production.
   * _I'm very familiar with many internet related technologies.  In fact, this site exemplifies many content production technologies because I wanted to improve upon the traditional way of preparing a CV._
 - Advanced Degree preferred (ideally in Education, Management, or other related fields).
-  * _Not yet.  I scored in the [99th percentile](edx.html#gmat) on the GMAT, but delayed my decision to pursue an MBA in order to do a self-directed exploration of online educational technologies, because I believe the internet will revolutionize education._
+  * _Not yet.  I scored in the [99th percentile](edx-resume.html#gmat) on the GMAT, but delayed my decision to pursue an MBA in order to do a self-directed exploration of online educational technologies, because I believe the internet will revolutionize education._
 
 This position will report into the Senior Director, Relationship Management. A successful RM will bring a balance of strategic consulting skills, business acumen, customer-centricity, and collaboration and project management skills to help our client teams be successful. They will also be able to work independently with periodic supervision. They will need to do this while understanding the intricacies of working with partners in Europe.
 

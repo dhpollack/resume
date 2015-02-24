@@ -14,4 +14,5 @@ hideid:
     - '#ethos'
     - '#school-hw'
     - '.gpa-entry'
+makepdf: true
 ---

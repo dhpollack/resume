@@ -1,30 +1,15 @@
 ---
-layout: resume
-title: David Pollack's Resume - edX
+layout: coverletter
+title: edX Job Posting Navigation Page
 date: 2015-01-02 00:00
 lang: english
 employer: edx
-description: "This is my edX resume."
-hideid:
-    - '#gre'
-    - '#school-hw'
-    - '.gpa-entry'
-    - '#dogecoincom'
-    - '#jqueryi18n'
-    - '#wholefoods'
-sections:
-    - xp.md
-    - ed.md
-    - lang.md
-    - tests.md
-    - mooc.md
-    - github.md
-    - footer.md
-xporder:
-    - "#cygnus-div"
-    - "#navigant-div"
-sortflag: false
+description: "This a navigation page for the Relationship Manager for Europe (Contract Role) position."
 comments: false
 sharing: false
+makepdf: false
 footer: true
 ---
+### Navigation
+
+Below is a list of links for you to navigate my candidacy.

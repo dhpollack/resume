@@ -19,8 +19,12 @@ module OctopressFilters
     if page.ext.match('html|textile|markdown|md|haml|slim|xml')
       page.output = TemplateWrapper::unwrap(page.output)
     end
-
-    page.output = RubyPants.new(page.output).to_html
+    if page.ext.match('json')
+    
+    else
+      page.output = RubyPants.new(page.output).to_html
+    end
+    
   end
 
   class PageFilters < Octopress::Hooks::Page

@@ -1,0 +1,4 @@
+---
+layout: null
+---
+{% capture jsontext %}{% for page in site.pages reversed %}{% if page.makepdf == true %}{{ page.url | prepend: site.developmenturl }}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}{% endcapture %}{{ jsontext | split: "," | jsonify }}
