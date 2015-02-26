@@ -42,10 +42,13 @@ function sortxp(sort_xp) {
             $( sort_xp[i] ).prependTo("#xp-section");
         }
 }
-
+function movefootnotes() {
+    $( ".footnotes" ).prependTo("footer").css("text-align","left");
+}
 
 $(document).ready(function() {
     hidesections(exclude_sections);
     makeSortable(sortFlag);
     sortxp(sort_xp);
+    movefootnotes();
 });

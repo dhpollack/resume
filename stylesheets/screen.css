@@ -2466,7 +2466,7 @@ body > div > div {
 }
 
 .sans, body, body > header h2, article header p.meta, article > footer, #content .blog-index footer, html .gist .gist-file .gist-meta, #blog-archives a.category, #blog-archives time, body > footer {
-  font-family: "Open Sans", "Helvetica Neue", Arial, NanumBarunGothic, "Apple SD Gothic Neo", AppleGothic, "Malgun Gothic", DotumChe, sans-serif;
+  font-family: "PT Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
 .serif, #content .blog-index a[rel=full-article] {
@@ -3007,7 +3007,7 @@ body > nav form {
 body > nav form .search {
   padding: .3em .5em 0;
   font-size: .85em;
-  font-family: "Open Sans", "Helvetica Neue", Arial, NanumBarunGothic, "Apple SD Gothic Neo", AppleGothic, "Malgun Gothic", DotumChe, sans-serif;
+  font-family: "PT Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   line-height: 1.1em;
   width: 95%;
   -moz-border-radius: 0.5em;
@@ -3099,7 +3099,7 @@ body > nav ul {
   }
   body > nav a {
     color: #737373;
-    font-family: "Open Sans", "Helvetica Neue", Arial, NanumBarunGothic, "Apple SD Gothic Neo", AppleGothic, "Malgun Gothic", DotumChe, sans-serif;
+    font-family: "PT Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
     text-shadow: #f7f7f7 0 1px;
     float: left;
     text-decoration: none;
@@ -4029,7 +4029,7 @@ figure.code .highlight {
   -moz-border-radius-topright: 5px;
   -webkit-border-top-right-radius: 5px;
   border-top-right-radius: 5px;
-  font-family: "Open Sans", "Helvetica Neue", Arial, NanumBarunGothic, "Apple SD Gothic Neo", AppleGothic, "Malgun Gothic", DotumChe, sans-serif;
+  font-family: "PT Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   background: #cccccc url('/images/code_bg.png?1412675754') top repeat-x;
   border-top-color: #cbcbcb;
   border-left-color: #a5a5a5;
@@ -4495,7 +4495,7 @@ figcaption {
 
 .flickr-thumbnail h1 {
   font-size: small;
-  font-family: "Open Sans", "Helvetica Neue", Arial, NanumBarunGothic, "Apple SD Gothic Neo", AppleGothic, "Malgun Gothic", DotumChe, sans-serif;
+  font-family: "PT Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   text-align: center;
 }
 
@@ -4553,7 +4553,7 @@ figure a img, figure a video, figure a .flash-video {
 /* customization for fancybox */
 /* fonts  and layout */
 .fancybox-title, .fancybox-title h1, .fancybox-title .description {
-  font-family: "Open Sans", "Helvetica Neue", Arial, NanumBarunGothic, "Apple SD Gothic Neo", AppleGothic, "Malgun Gothic", DotumChe, sans-serif !important;
+  font-family: "PT Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif !important;
   text-align: center;
 }
 
