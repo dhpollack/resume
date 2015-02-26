@@ -12,7 +12,6 @@ footer: true
 ---
 {% assign jobinfo = site.data.employers.[page.employer] %}
 ### Cover Letter - [edX Relationship Manager for Europe]({{ jobinfo.jobpostingurl }})
-{: #edx-cover-letter-header }
 
 Dear {{ jobinfo.coverletter.greetings }}:
 

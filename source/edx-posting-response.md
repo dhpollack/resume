@@ -10,8 +10,9 @@ sharing: false
 makepdf: true
 footer: true
 ---
-
-## [edX Relationship Manager for Europe]({{ site.data.employers.[page.employer].jobpostingurl }})
+{% assign jobinfo = site.data.employers.[page.employer] %}
+## [{{ jobinfo.name }} {{ jobinfo.jobtitle }}]({{ jobinfo.jobpostingurl }})
+{: #{{ jobinfo.jobtitle | replace: ' ', '-' | replace: '(','' | replace: ')','' | downcase}} }
 
 The European Relationship Manager (RM) is a key member of our Educational Services team. The RM is primarily responsible for successful oversight and satisfaction of our course providers and our member institutions. RM’s help edX and our partners achieve our shared goals by developing deep and trusted relationships with them, engaging in strategic planning, sharing best practices and opportunities, and working with our Program Management team and others to execute flawlessly.
 
@@ -61,7 +62,7 @@ __REQUIRED__:
 - Experience with enterprise business software such as Salesforce, Google Docs or Microsoft Office.
   * _I have administered Google Docs for Business instances since 2004 including currently our instance at Cygnus Association Management._
 - Experience working in the European market preferred.
-  * _I'm a [private tutor](/edx-resume.html#privatlehrer-div) and (director of a volunteer English class)[/edx-resume.html#rutli-div] in Berlin._
+  * _I'm a private tutor and director of a volunteer English program in Berlin._
 - May deal with confidential information and/or issues using discretion and judgment.
   * _This was a priority with my work concerning the housing crisis (i.e. dealing with personal financial information, etc)._
 - Other duties as required.
@@ -74,7 +75,7 @@ __PREFERRED__:
 - Fluency in regional languages a plus.
   * _Part of my reason for moving to Berlin was to learn a foreign language using only free online tools, and starting from nothing, I taught myself German to conversationally fluency in less than two years without ever taking a tradition language course (upper intermediate)._
 - Demonstrated working knowledge of educational technologies, deploying SaaS technologies, or content production.
-  * _I'm very familiar with many internet related technologies.  In fact, this site exemplifies many content production technologies because I wanted to improve upon the traditional way of preparing a CV._
+  * _I am an expert in many internet technologies.  In fact, this site exemplifies many of my content production skills._
 - Advanced Degree preferred (ideally in Education, Management, or other related fields).
   * _Not yet.  I scored in the [99th percentile](edx-resume.html#gmat) on the GMAT, but delayed my decision to pursue an MBA in order to do a self-directed exploration of online educational technologies, because I believe the internet will revolutionize education._
 

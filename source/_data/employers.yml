@@ -18,3 +18,24 @@ edx:
         icon: "fa fa-list"
     coverletter:
         greetings: Senior Relationship Manager for Europe at edX
+lse:
+    name: London School of Economics
+    jobspecificpages:
+        - resumeurl
+        - coverletterurl
+        - postresponseurl
+    jobpostingurl: "http://www.lse.ac.uk/study/graduate/taughtProgrammes2015/MScManagementInformationSystemsAndDigitalInnovation.aspx"
+    jobtitle: Masters of Science Candidate
+    resumeurl:
+        name: Resume
+        url: /lse-resume
+    coverletterurl: 
+        name: Cover Letter
+        url: /lse-personal-statement
+    postresponseurl:
+        name: Posting Bullet Points
+        url: /edx-posting-response
+        icon: "fa fa-list"
+    coverletter:
+        greetings: LSE Entrance Committee Team
+        

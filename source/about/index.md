@@ -29,5 +29,13 @@ Well, you can checkout the generic resume.  There are a bunch of things that wou
 
 [David's Sortable Generic Resume](/general.html)
 
+### Notes to Self:
+
+Occasionally, I find useful posts when creating this site.  I am going to list them below:
+
+- [PhantomJS with WebFonts Support](http://arunoda.me/blog/phantomjs-webfonts-build.html)
+- [Page Numbers on Printed Pages](http://stackoverflow.com/questions/6109893/page-numbers-with-css-html)
+- [PhantomJS 2](http://blog.rampinteractive.co.uk/linux/compiling-phantomjs-2-0-binaries-linux/)
+
 Cheers,
 David

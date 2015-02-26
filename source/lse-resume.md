@@ -1,19 +1,13 @@
 ---
 layout: resume
-title: David Pollack's Resume - edX
+title: David Pollack's Resume - London School of Economics
 date: 2015-01-02 00:00
 lang: english
-employer: edx
-description: "This is my edX resume."
+employer: lse
+description: "This is my London School of Economics resume."
 hideid:
-    - '#gre'
-    - '#school-hw'
-    - '.gpa-entry'
     - '#dogecoincom'
-    - '#jqueryi18n'
     - '#wholefoods'
-    - '#gmat-4'
-    - '#mgat-5'
 sections:
     - xp.md
     - ed.md

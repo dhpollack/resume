@@ -10,6 +10,7 @@ sharing: false
 makepdf: false
 footer: true
 ---
+{% assign jobinfo = site.data.employers.[page.employer] %}
 ### Navigation
 
-Below is a list of links for you to navigate my candidacy.
+Below is a list of links for you to navigate my application for [{{ jobinfo.name }} - {{ jobinfo.jobtitle }}]({{ jobinfo.jobpostingurl }}) position.

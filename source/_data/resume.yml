@@ -21,7 +21,7 @@ basic_info:
 
 objectives:
   duolingo:
-    - Inspire other to have the courage to learn and speak a foreign language to make a leap of faith to live in a foreign country.
+    - Inspire others to have the courage to learn and speak a foreign language to make a leap of faith to live in a foreign country.
   general:
     - Leverage my unique set of talents to solve problems facing your organization.
     - Never fear failure.
@@ -120,9 +120,12 @@ education:
       - BA Economics
       - Economics
     gradyear: 2005
+    start_date: 2001-08-01 12:00:00 +0100
+    end_date: 2005-05-16 12:00:00 +0100
     gpa:
       overall: 3.171
       major: 3.55
+    transcript: "https://drive.google.com/open?id=0Bwx922rqjhoWZ212TjE0ZzM5VWM"
     extracirriculars:
       tourguide:
         name: Tour Guide
@@ -173,6 +176,7 @@ extras:
     -
       name: GMAT
       url: http://www.mba.com/global/the-gmat-exam/gmat-exam-scoring/your-score-report/what-percentile-rankings-mean.aspx
+      transcript: "https://drive.google.com/open?id=0Bwx922rqjhoWODRFMEtCcExLQlk"
       date: 2012-07-26 12:00:00 +0100
       sections:
         -
@@ -187,12 +191,21 @@ extras:
           name: Overall
           score: 760
           percentile: 99
+        -
+          name: Analytical Writing
+          score: 5
+          percentile: 57
+        -
+          name: Integrated Reasoning
+          score: 7
+          percentile: 84
       registration:
         regid: 100001897206
         apptid: 248450504
     -
       name: GRE
       url: https://www.ets.org/s/gre/pdf/gre_guide.pdf
+      transcript: "https://drive.google.com/open?id=0Bwx922rqjhoWd1Y2WDBhdWpreEU"
       date: 2014-09-29 09:00:00 +0100
       sections:
         -
@@ -203,6 +216,10 @@ extras:
           name: Quant  
           score: 164
           percentile: 88
+        -
+          name: Analytical Writing
+          score: 4.5
+          percentile: 80
       registration:
         apptid: 8800000002481674
         regid: 7265035

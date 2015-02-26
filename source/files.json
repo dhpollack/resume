@@ -1,4 +1,10 @@
 ---
 layout: null
 ---
-{% capture jsontext %}{% for page in site.pages reversed %}{% if page.makepdf == true %}{{ page.url | prepend: site.developmenturl }}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}{% endcapture %}{{ jsontext | split: "," | jsonify }}
+[{% for page in site.pages reversed %}
+    {
+        "pageurl" :  "{{ page.url | prepend: site.developmenturl }}",
+        "makepdf" :  "{% if page.makepdf %}{{ page.makepdf }}{%else%}false{%endif%}",
+        "printheaders" : "{% if page.printheaders %}{{page.printheaders}}{%else%}false{%endif%}"
+    }{% unless forloop.last %},{% endunless %}{% endfor %}
+]
