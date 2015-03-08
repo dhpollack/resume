@@ -20,7 +20,12 @@
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "http://resume-dhpollack.c9.io/archives/index.html",
+        "pageurl" :  "http://resume-dhpollack.c9.io/blog/archives/index.html",
+        "makepdf" :  "false",
+        "printheaders" : "false"
+    },
+    {
+        "pageurl" :  "http://resume-dhpollack.c9.io/posts/index.html",
         "makepdf" :  "false",
         "printheaders" : "false"
     },
@@ -30,17 +35,12 @@
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "http://resume-dhpollack.c9.io/blog/archives/index.html",
-        "makepdf" :  "false",
-        "printheaders" : "false"
-    },
-    {
         "pageurl" :  "http://resume-dhpollack.c9.io/blog/index.html",
         "makepdf" :  "false",
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "http://resume-dhpollack.c9.io/posts/index.html",
+        "pageurl" :  "http://resume-dhpollack.c9.io/archives/index.html",
         "makepdf" :  "false",
         "printheaders" : "false"
     },
