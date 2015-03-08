@@ -4,7 +4,7 @@ title: David Pollack's Resume - edX
 date: 2015-01-02 00:00
 lang: english
 employer: edx
-description: "This is my edX resume."
+description: "This is David Pollack's edX resume."
 hideid:
     - '#gre'
     - '#school-hw'
