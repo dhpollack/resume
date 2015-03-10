@@ -22,4 +22,6 @@ article,
   margin: 0px;
   padding: 0px;
   font-size: 96%;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
 }
