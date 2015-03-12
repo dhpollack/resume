@@ -1,91 +1,91 @@
 [
     {
-        "pageurl" :  "http://resume-dhpollack.c9.io/robots.txt",
+        "pageurl" :  "/robots.txt",
         "makepdf" :  "false",
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "http://resume-dhpollack.c9.io/lse-resume.html",
+        "pageurl" :  "/lse-resume.html",
         "makepdf" :  "true",
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "http://resume-dhpollack.c9.io/lse-personal-statement.html",
+        "pageurl" :  "/lse-personal-statement.html",
         "makepdf" :  "true",
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "http://resume-dhpollack.c9.io/about/index.html",
+        "pageurl" :  "/about/index.html",
         "makepdf" :  "false",
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "http://resume-dhpollack.c9.io/blog/archives/index.html",
+        "pageurl" :  "/blog/archives/index.html",
         "makepdf" :  "false",
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "http://resume-dhpollack.c9.io/posts/index.html",
+        "pageurl" :  "/posts/index.html",
         "makepdf" :  "false",
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "http://resume-dhpollack.c9.io/index.html",
+        "pageurl" :  "/index.html",
         "makepdf" :  "false",
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "http://resume-dhpollack.c9.io/blog/index.html",
+        "pageurl" :  "/blog/index.html",
         "makepdf" :  "false",
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "http://resume-dhpollack.c9.io/archives/index.html",
+        "pageurl" :  "/archives/index.html",
         "makepdf" :  "false",
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "http://resume-dhpollack.c9.io/general.html",
+        "pageurl" :  "/general.html",
         "makepdf" :  "true",
         "printheaders" : "true"
     },
     {
-        "pageurl" :  "http://resume-dhpollack.c9.io/files.json",
+        "pageurl" :  "/files.json",
         "makepdf" :  "false",
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "http://resume-dhpollack.c9.io/examples.html",
+        "pageurl" :  "/examples.html",
         "makepdf" :  "false",
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "http://resume-dhpollack.c9.io/edx.html",
+        "pageurl" :  "/edx.html",
         "makepdf" :  "false",
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "http://resume-dhpollack.c9.io/edx-resume.html",
+        "pageurl" :  "/edx-resume.html",
         "makepdf" :  "true",
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "http://resume-dhpollack.c9.io/edx-posting-response.html",
+        "pageurl" :  "/edx-posting-response.html",
         "makepdf" :  "true",
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "http://resume-dhpollack.c9.io/edx-cover-letter.html",
+        "pageurl" :  "/edx-cover-letter.html",
         "makepdf" :  "true",
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "http://resume-dhpollack.c9.io/duolingo.html",
+        "pageurl" :  "/duolingo.html",
         "makepdf" :  "true",
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "http://resume-dhpollack.c9.io/atom.xml",
+        "pageurl" :  "/atom.xml",
         "makepdf" :  "false",
         "printheaders" : "false"
     }
