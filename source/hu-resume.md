@@ -12,9 +12,9 @@ hideid:
     - '#wholefoods'
     - '#gmat-4'
     - '#gmat-5'
-    - '#activity-5'
-    - '#activity-6'
-    - '#activity-7'
+    - '#activity5'
+    - '#activity6'
+    - '#activity7'
 sections:
     - xp.md
     - ed.md

@@ -39,14 +39,14 @@ lse:
         url: /edx-posting-response
         icon: "fa fa-list"
     coverletter:
-        greetings: LSE Entrance Committee Team
+        greetings: LSE Entrance Committee
 hu:
     name: Humboldt Universität
     jobspecificpages:
         - resumeurl
         - coverletterurl
     jobpostingurl: "https://www.wiwi.hu-berlin.de/international/mems/"
-    jobtitle: Masters of Science Candidate
+    jobtitle: MEMS Masters of Science Candidate
     resumeurl:
         name: Resume
         url: /hu-resume
@@ -54,4 +54,4 @@ hu:
         name: Motivation Letter
         url: /hu-motivation-letter
     coverletter:
-        greetings: HU Entrance Committee Team
+        greetings: HU Entrance Committee
