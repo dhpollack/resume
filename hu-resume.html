@@ -5,12 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>David Pollack&#8217;s Generic Sortable Resume</title>
+  <title>David Pollack&#8217;s Resume - Humboldt Universität</title>
   <meta name="robots" content="noindex, nofollow">
   <meta name="author" content="David Pollack">
 
   
-  <meta name="description" content="This is a sortable resume with no hidden fields.">
+  <meta name="description" content="David Pollack's HU resume.">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -38,9 +38,9 @@
     <script src="/javascripts/resume.js" type="text/javascript"></script>
     <script src="/javascripts/libs/jquery.fn.sortable.js"></script>
     <script>
-        var exclude_sections = [];
-        var sort_xp = [];
-        var sortFlag = true;
+        var exclude_sections = ["#school-hw" ,"#dogecoincom" ,"#jqueryi18n" ,"#wholefoods" ,"#gmat-4" ,"#gmat-5" ,"#activity5" ,"#activity6" ,"#activity7"];
+        var sort_xp = ["#navigant-div" ,"#cygnus-div"];
+        var sortFlag = false;
     </script>
 
 
@@ -53,13 +53,6 @@
   <div id="main">
     <div id="content">
       <div id="resume-sections">
-        
-        <div id="ethosmd-section">
-        
-          <h3 class="section-header" id="objective">Objective</h3>
-<p>Leverage my unique set of talents to solve problems facing your organization.</p>
-
-        </div>
         
         <div id="xpmd-section">
         
@@ -121,32 +114,6 @@
 
         </div>
         
-        <div id="langmd-section">
-        
-          <h3 class="section-header" id="languages">Languages</h3>
-
-<ul>
-  <li id="lang-english">English (native)</li>
-  <li id="lang-german">German (upper intermediate)</li>
-  <li id="lang-french">French (basic)</li>
-</ul>
-
-        </div>
-        
-        <div id="duomd-section">
-        
-          <h3 class="section-header" id="duolingo-accomplishments">Duolingo Accomplishments</h3>
-<ul>
-  <li>Username: maverickpl</li>
-  <li>Completed the trees for German and French (both from English)</li>
-  <li>Contributed dozens of new answers to several trees spanning across three languages in both production and beta language pairs</li>
-  <li>Game Levels: 17 in French (English -&gt; French and German -&gt; French), 16 in German, 9 in English (German -&gt; English), and 5 in Spanish</li>
-  <li>Immersion Levels:  5 in German and 2 in French</li>
-  <li>Discussion board contributor</li>
-</ul>
-
-        </div>
-        
         <div id="testsmd-section">
         
           <h3 class="section-header" id="test-scores">Test Scores</h3>
@@ -180,6 +147,18 @@
 
         </div>
         
+        <div id="langmd-section">
+        
+          <h3 class="section-header" id="languages">Languages</h3>
+
+<ul>
+  <li id="lang-english">English (native)</li>
+  <li id="lang-german">German (upper intermediate)</li>
+  <li id="lang-french">French (basic)</li>
+</ul>
+
+        </div>
+        
         <div id="moocmd-section">
         
           <h3 class="section-header" id="moocs">MOOCs</h3>
@@ -198,46 +177,6 @@
   <li id="makingsensedata" class="mooc-cert-entry"><a href="https://drive.google.com/open?id=0Bwx922rqjhoWZ2tUWmVKb0c0azA" target="_blank">Making Sense of Data</a> from Google (Google)</li>
   <li id="storytelling" class="mooc-cert-entry"><a href="https://drive.google.com/open?id=0Bwx922rqjhoWcWFPRTJOam53dkU" target="_blank">The Future of Storytelling</a> from Fachhochschule Potsdam (Iversity)</li>
   <li id="chem181" class="mooc-cert-entry"><a href="https://drive.google.com/open?id=0Bwx922rqjhoWRXllVExtaHVlc2c" target="_blank">CHEM181x: Food for Thought</a> from McGill University (edX)</li>
-</ul>
-
-        </div>
-        
-        <div id="githubmd-section">
-        
-          <h3 class="section-header" id="github">Github</h3>
-<ul>
-  <li>Username: <a href="https://github.com/dhpollack">dhpollack</a></li>
-  <li id="edx" class="github-entry"><a href="https://github.com/edx" target="_blank">edX</a>
-    <ul>
-      <li id="edx-1119" class="github-pull-entry"><a href="https://github.com/edx/configuration/pull/1119">1119</a> - Update README.md</li>
-      <li id="edx-1166" class="github-pull-entry"><a href="https://github.com/edx/configuration/pull/1166">1166</a> - make backup of previous server-vars.yml</li>
-      <li id="edx-1285" class="github-pull-entry"><a href="https://github.com/edx/configuration/pull/1285">1285</a> - added ansible task to add chris-lea ppas for current version nodejs</li>
-      <li id="edx-1286" class="github-pull-entry"><a href="https://github.com/edx/configuration/pull/1286">1286</a> - COMMON_ENABLE_BASIC_AUTH to False in ansible/comment/defaults/main.yml</li>
-    </ul>
-  </li>
-  <li id="dogecoincom" class="github-entry"><a href="https://github.com/dogecoin/dogecoin.com" target="_blank">dogecoin.com</a>
-    <ul>
-      <li id="dogecoincom-46" class="github-pull-entry"><a href="https://github.com/dogecoin/dogecoin.com/pull/46">46</a> - initial internationalization commit with jquery.i18n plugin</li>
-      <li id="dogecoincom-48" class="github-pull-entry"><a href="https://github.com/dogecoin/dogecoin.com/pull/48">48</a> - added internationalization back to main page</li>
-      <li id="dogecoincom-49" class="github-pull-entry"><a href="https://github.com/dogecoin/dogecoin.com/pull/49">49</a> - changes noted by user Moldu and .gitignore for testing</li>
-      <li id="dogecoincom-59" class="github-pull-entry"><a href="https://github.com/dogecoin/dogecoin.com/pull/59">59</a> - Added Gemfile for easier testing with Jekyll</li>
-    </ul>
-  </li>
-  <li id="jqueryi18n" class="github-entry"><a href="https://github.com/wikimedia/jquery.i18n" target="_blank">jquery.i18n</a>
-    <ul>
-      <li id="jqueryi18n-71" class="github-pull-entry"><a href="https://github.com/wikimedia/jquery.i18n/pull/71">71</a> - specified locale wasn’t loading when dir was used in load()</li>
-    </ul>
-  </li>
-</ul>
-
-        </div>
-        
-        <div id="skillsmd-section">
-        
-          <h3 class="section-header" id="skills">Skills</h3>
-
-<ul>
-  <li id="skill1" class="skill-entry">Working knowledge of Java, Python, CSS, HTML, Javascript, PHP, and (No)SQL</li>
 </ul>
 
         </div>
@@ -273,8 +212,12 @@
   <footer role="contentinfo">
 
 <p>
-  <a class="btn btn-default btn-sm" href="/assets/pdfs/general-letter.pdf"><i class="fa fa-file-pdf-o"></i> PDF (Letter)</a>
-  <a class="btn btn-default btn-sm" href="/assets/pdfs/general-a4.pdf"><i class="fa fa-file-pdf-o"></i> PDF (A4)</a>
+  <a class="btn btn-default btn-lg" href="/hu-resume"><i class="fa fa-file-text"></i> Resume</a>
+  <a class="btn btn-default btn-lg" href="/hu-motivation-letter"><i class="fa fa-file-text"></i> Motivation Letter</a>
+</p>
+<p>
+  <a class="btn btn-default btn-sm" href="/assets/pdfs/hu-resume-letter.pdf"><i class="fa fa-file-pdf-o"></i> PDF (Letter)</a>
+  <a class="btn btn-default btn-sm" href="/assets/pdfs/hu-resume-a4.pdf"><i class="fa fa-file-pdf-o"></i> PDF (A4)</a>
 </p>
 <p>
   Copyright &copy; 2015 - David Pollack -
