@@ -10,11 +10,11 @@ basic_info:
     - 14044927766
     - +49 152 0476 3223
   addresses:
-    la:
+    -
       fulladdress: '309 S Carmelina Ave, Los Angeles, CA 90049'
       prevaddress:
         - '206 11th St NE, Apt 304, Atlanta, GA 30309' 
-    berlin:
+    -
       fulladdress: 'Weisestraße 60, 12049 Berlin'
       prevaddress:
         - 'Linienstr. 71, 10119 Berlin' 
@@ -70,7 +70,7 @@ jobs:
     start_date: 2014-07-15 12:00:00 +0100
     end_date: 2014-10-15 12:00:00 +0100
     description:
-      general: "Ich arbeite im Café am Prinzessinnengarten in der Nähe Moritzplatz.  Meine Verantwortungen sind das Essen kochen, mit den Kunden reden und das Geschirr putzen.  Ich muss auf deutsch und auf englisch mit meinen Kollegen und den Kunden sprechen."
+      general: "Worked in a multicultural, multilingual kitchen at a popular community garden in Berlin.  In addition to cooking, my responsibilities included a significant amount of customer service duties in multiple languages with customers from all over the world."
       duolingo: "Ich arbeite im Café am Prinzessinnengarten in der Nähe Moritzplatz.  Meine Verantwortungen sind das Essen kochen, mit den Kunden reden und das Geschirr putzen.  Ich muss auf deutsch und auf englisch mit meinen Kollegen und den Kunden sprechen."
       edx: "Worked in a multicultural, multilingual kitchen at a popular community garden in Berlin.  In addition to cooking, my responsibilities included a significant amount of customer service duties in multiple languages with customers from all over the world."
   -

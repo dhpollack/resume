@@ -3,7 +3,7 @@ layout: null
 ---
 [{% for page in site.pages reversed %}
     {
-        "pageurl" :  "{{ page.url | prepend: site.developmenturl }}",
+        "pageurl" :  "{{ page.url }}",
         "makepdf" :  "{% if page.makepdf %}{{ page.makepdf }}{%else%}false{%endif%}",
         "printheaders" : "{% if page.printheaders %}{{page.printheaders}}{%else%}false{%endif%}"
     }{% unless forloop.last %},{% endunless %}{% endfor %}

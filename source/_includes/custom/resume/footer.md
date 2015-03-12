@@ -1,2 +1,2 @@
-{: .footer-info }
-\| {{ site.data.resume.basic_info.addresses.berlin.fulladdress }} \| {{ site.data.resume.basic_info.phones[2] }} \| {{ site.data.resume.basic_info.emails[0] }} \|
+{: .footer-info }{% if site.data.employers.[page.employer] %}{% assign employer = site.data.employers.[page.employer] %}{% endif %}{% if employer.myphone %}{% assign myphone = employer.myphone %}{% else %}{% assign myphone = 2 %}{% endif %}{% if employer.myemail %}{% assign myemail = employer.myemail %}{% else %}{% assign myemail = 0 %}{% endif %}{% if employer.myaddress %}{% assign myaddress = employer.myaddress %}{% else %}{% assign myaddress = 1 %}{% endif %}
+\| {{ site.data.resume.basic_info.addresses.[myaddress].fulladdress }} \| {{ site.data.resume.basic_info.phones[[myphone]] }} \| {{ site.data.resume.basic_info.emails[myemail] }} \|

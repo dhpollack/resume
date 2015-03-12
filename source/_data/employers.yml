@@ -17,7 +17,9 @@ edx:
         url: /edx-posting-response
         icon: "fa fa-list"
     coverletter:
-        greetings: Senior Relationship Manager for Europe at edX
+        greetings: edX HR Department
+    myemail: 1
+    myaddress: 1
 lse:
     name: London School of Economics
     jobspecificpages:
@@ -38,4 +40,18 @@ lse:
         icon: "fa fa-list"
     coverletter:
         greetings: LSE Entrance Committee Team
-        
+hu:
+    name: Humboldt Universität
+    jobspecificpages:
+        - resumeurl
+        - coverletterurl
+    jobpostingurl: "https://www.wiwi.hu-berlin.de/international/mems/"
+    jobtitle: Masters of Science Candidate
+    resumeurl:
+        name: Resume
+        url: /hu-resume
+    coverletterurl: 
+        name: Motivation Letter
+        url: /hu-motivation-letter
+    coverletter:
+        greetings: HU Entrance Committee Team

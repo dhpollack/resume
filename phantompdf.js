@@ -8,8 +8,8 @@
 var RenderUrlsToFile, arrayOfUrls, arrayOfPaperSizes, pathToRender, jsonFile, baseUrl, headerFooter, system;
 
 pathToRender = "source/assets/pdfs/";
-baseUrl = "https://resume-dhpollack.c9.io";
-jsonFile = "http://resume-dhpollack.c9.io/files.json";
+baseUrl = "http://resume-dhpollack.c9.io";
+jsonFile = baseUrl + "/files.json";
 
 
 system = require("system");
@@ -65,21 +65,22 @@ RenderUrlsToFile = function(urls, callbackPerUrl, callbackFinal) {
         return retrieve();
     };
     retrieve = function() {
-        var url;
+        var pageArray;
         if (urls.length > 0) {
-            url = urls.shift();
+            pageArray = urls.shift();
+            var uri = baseUrl + pageArray[0];
             urlIndex++;
             page = webpage.create();
             page.paperSize = arrayOfPaperSizes[0];
             page.settings.userAgent = "Phantom.js bot";
-            return page.open(url[0], function(status) {
+            return page.open(uri, function(status) {
                 if (status === "success") {
-                    console.log("printheaders: " + url[1]);
+                    console.log("printheaders: " + pageArray[1]);
                     return window.setTimeout((function() {
                         for(var i = 0; i < arrayOfPaperSizes.length; i++) {
-                            var file = getFilename(url[0], arrayOfPaperSizes[i].format.toLowerCase());
+                            var file = getFilename(uri, arrayOfPaperSizes[i].format.toLowerCase());
                             var myPaperSize = arrayOfPaperSizes[i];
-                            if( url[1] == "true") {
+                            if( pageArray[1] == "true") {
                                 myPaperSize.header = headerFooter.header;
                                 myPaperSize.footer = headerFooter.footer;
                             } else {
@@ -89,10 +90,10 @@ RenderUrlsToFile = function(urls, callbackPerUrl, callbackFinal) {
                             page.paperSize = myPaperSize;
                             page.render(file);
                         }
-                        return next(status, url[0], urlIndex);
+                        return next(status, uri, urlIndex);
                     }), 1000);
                 } else {
-                    return next(status, url[0], urlIndex);
+                    return next(status, uri, urlIndex);
                 }
             });
         } else {

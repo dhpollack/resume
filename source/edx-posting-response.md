@@ -50,7 +50,7 @@ __REQUIRED__:
 - Comfort with ambiguity and proactive approach to problem-solving.
   * _I moved to a foreign country without knowing a single person, having a job, or knowing a single word of the local language.  Lots of ambiguity.  Lots of problem solving._
 - Ability to create processes that provides systematic solutions to open-ended challenges.
-  * _At Navigant, I often times used my programming abilities to create programatic solutions that cut the time required to do tasks from hours to minutes._ 
+  * _At Navigant, I often times used my programming abilities to create programmatic solutions that cut the time required to do tasks from hours to minutes._ 
 - Positive, team player with a roll up your sleeves, service-oriented attitude.
   * _This is how I encourage the students at Rütli to keep coming to my optional English classes._
 - Thrives in a fast-paced, intense work environment and is accepting of change.
