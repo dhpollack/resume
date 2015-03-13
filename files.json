@@ -20,17 +20,17 @@
         "printheaders" : "false"
     },
     {
+        "pageurl" :  "/blog/archives/index.html",
+        "makepdf" :  "false",
+        "printheaders" : "false"
+    },
+    {
         "pageurl" :  "/posts/index.html",
         "makepdf" :  "false",
         "printheaders" : "false"
     },
     {
         "pageurl" :  "/archives/index.html",
-        "makepdf" :  "false",
-        "printheaders" : "false"
-    },
-    {
-        "pageurl" :  "/blog/archives/index.html",
         "makepdf" :  "false",
         "printheaders" : "false"
     },
@@ -101,6 +101,11 @@
     },
     {
         "pageurl" :  "/atom.xml",
+        "makepdf" :  "false",
+        "printheaders" : "false"
+    },
+    {
+        "pageurl" :  "/404.html",
         "makepdf" :  "false",
         "printheaders" : "false"
     }
