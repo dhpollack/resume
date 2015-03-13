@@ -7,6 +7,7 @@ basic_info:
     - david@sologourmand.com
   phones:
     - 13104713381
+    - 13104352676
     - 14044927766
     - +49 152 0476 3223
   addresses:
@@ -37,7 +38,7 @@ jobs:
     start_date: 2014-08-01 12:00:00 -0500
     end_date:
     description:
-      general: "Founded an HOA (Homeowners' Association) management company to manage HOAs in Atlanta.  Responsible for finding, implementing, and maintaining the organizations technological solutions, including but not limited to paperless post, email system, productivity software, company web presence, and payment services.  Collaborate with other cofounders regarding all aspects of the company.  Customer support as needed.  Work 100% remotely."
+      general: "Founded an HOA (Homeowners' Association) management company to manage HOAs in Atlanta.  Responsible for finding, implementing, and maintaining the organization's technological solutions, including but not limited to Google Apps infrastructure, productivity software, company web presence, and payment services.  Collaborate with other cofounders regarding all aspects of the company.  Customer support as needed.  Work 100% remotely."
       duolingo: "Founded an HOA (Homeowners' Association) management company to manage HOAs in Atlanta.  Responsible for finding technological solutions, including but not limited to paperless post, intra-company communication, and financial services, to modernize a decidedly old-school industry.  Work 100% remotely."
   -
     id: rutli
@@ -48,7 +49,7 @@ jobs:
     start_date: 2014-01-14 12:00:00 +0100
     end_date:
     description:
-      general: "Lead an optional English class for students in the 11th, 12th, and 13th class at the Rütlischule in Neukölln.  Teach the students how to use technology to help them learn English with sites such as Quizlet, Duolingo, and Free Rice.  Foster a welcoming atmosphere to encourage the students to overcome their fears of speaking with native English speakers."
+      general: "Created and lead an optional English program for students in the 11th, 12th, and 13th class at the Rütlischule in Neukölln where we guide students through various web apps they can use to improve their English.  Foster a welcoming atmosphere to encourage the students to overcome their fears of speaking with native English speakers."
       duolingo: "Lead an optional English class for students in the 11th, 12th, and 13th class at the Rütlischule in Neukölln.  Teach the students how to use technology to help them learn English with sites such as Quizlet, Duolingo, and Free Rice.  Foster a welcoming atmosphere to encourage the students to overcome their fears of conversating in English with native speakers."
   -
     id: privatlehrer
@@ -59,7 +60,7 @@ jobs:
     start_date: 2013-06-24 12:00:00 +0100
     end_date:
     description:
-      general: "Develop a personalized curriculum to ensure students excel at the GMAT, while minimizing the stress associated with taking such an important entrance exam."
+      general: "Develop a personalized curriculum to ensure students excel at the GMAT, while mentally preparing students to deal with the stress associated with taking the exam."
       duolingo: "Develop a personalized curriculum to ensure students excel at the GMAT, while minimizing the stress associated with taking such an important entrance exam."
   -
     id: prinessinnengarten
@@ -85,7 +86,7 @@ jobs:
     start_date: 2006-09-01 12:00:00 +0100
     end_date: 2013-04-01 12:00:00 +0100
     description:
-      general: "Completed re-underwrites of over 750 residential home loans for one of the five largest US banks.  Managed and reviewed team members' work product.  Developed a Java program to automate the retrieval of documents, transaction logs, and customer service logs from the client website cutting per-loan prep time by an order of a magnitude.  Performed a wide array of construction management analyses for projects in infrastructure, state-owned international oil companies, and multi-unit housing.  Promoted in 2007 and 2010."
+      general: "Completed re-underwrites of over 750 residential home loans for several of the five largest US banks in disputes related to the US housing crisis.  Managed and reviewed team members' work product.  Developed software to automate the retrieval of documents, transaction logs, and customer service logs that cut the per-loan prep time by an order of a magnitude.  Performed a wide array of construction management analyses for projects in infrastructure, state-owned international oil companies, and multi-unit housing.  Promoted in 2007 and 2010."
       edx: "Completed re-underwrites of over 750 residential home loans for top US banks to settle disputes surrounding the validity of the insurance on these loans.  Managed and reviewed team members' work product.  Developed software programs to automate the retrieval of documents, transaction logs, and customer service logs from the client website cutting per-loan prep time by an order of a magnitude.  Promoted in 2007 and 2010."
   -
     id: joomla
@@ -243,14 +244,25 @@ extras:
   skills:
     - 'Working knowledge of Java, Python, CSS, HTML, Javascript, PHP, and (No)SQL'
   activities:
-    - Duolingo
-    - OpenEdx Contributor
-    - Coursera
-    - 'Freiwillige Arbeiter @ Prinzessinnengarten'
-    - 'Budget Advisor @ Habitat for Humanity'
-    - 'MoBro @ Movember'
-    - 'Green Market Volunteer @ Piedmont Park'
-    - Cycling
+    -
+      name: Duolingo
+    - 
+      name: OpenEdx Contributor
+    - 
+      name: Coursera
+    - 
+      name: 'Freiwillige Arbeiter @ Prinzessinnengarten'
+    - 
+      name: 'Budget Advisor @ Habitat for Humanity'
+    - 
+      name: 'MoBro @ Movember'
+    - 
+      name: 'Green Market Volunteer @ Piedmont Park'
+    - 
+      name: Cycling
+    - 
+      name: Fantasy Baseball Podcaster
+      url: http://2020allstars.da3.net
   github:
     username: dhpollack
     contributions:

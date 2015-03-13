@@ -15,12 +15,14 @@ hideid:
     - '#activity5'
     - '#activity6'
     - '#activity7'
+    - '#activity9'
 sections:
     - xp.md
     - ed.md
     - tests.md
     - lang.md
     - mooc.md
+    - github.md
     - activities.md
     - footer.md
 xporder:
