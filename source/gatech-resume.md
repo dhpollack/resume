@@ -1,14 +1,12 @@
 ---
 layout: resume
-title: David Pollack's Resume - Humboldt Universität
+title: David Pollack's Resume - GA Tech OMS CS
 date: 2015-01-02 00:00
 lang: english
-employer: hu
-description: "David Pollack's HU resume."
+employer: gatech
+description: "David Pollack's GA Tech resume."
 hideid:
     - '#school-hw'
-    - '#dogecoincom'
-    - '#jqueryi18n'
     - '#wholefoods'
     - '#gmat-4'
     - '#gmat-5'

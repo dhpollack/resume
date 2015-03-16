@@ -1,17 +1,21 @@
 ---
 layout: coverletter
-title: "Cover Letter for Humboldt Universität MEMS Program - David Pollack"
+title: "Purpose Letter for GA Tech OMS CS Program - David Pollack"
 date: 2015-01-02 00:00
 lang: english
-employer: hu
-description: "Cover letter for the Master's Program in Economics and Management Science at Humbodt Universität (MEMS) - David Pollack"
+employer: gatech
+description: "Statement of Purpose for the Online Master's Program in Computer Science at Georgia Institute of Technology (OMS CS) - David Pollack"
 comments: false
 sharing: false
 makepdf: false
 footer: true
 ---
+### Instructions
+
+Please give a Statement of Purpose detailing your academic and research goals as well as career plans. Include your reasons for choosing the College of Computing as opposed to other programs and/or other universities. Your space is limited to 4000 characters.
+
 {% assign jobinfo = site.data.employers.[page.employer] %}
-### Motivation Letter - [{{ jobinfo.jobtitle }}]({{ jobinfo.jobpostingurl }})
+### Purpose Letter - [{{ jobinfo.jobtitle }}]({{ jobinfo.jobpostingurl }})
 {: #cover-letter-header }
 
 Dear {{ jobinfo.coverletter.greetings }},

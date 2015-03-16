@@ -55,3 +55,22 @@ hu:
         url: /hu-motivation-letter
     coverletter:
         greetings: HU Entrance Committee
+gatech:
+    name: Georgia Tech
+    jobspecificpages:
+        - resumeurl
+        - coverletterurl
+        - backgroundletterurl
+    jobpostingurl: "http://www.omscs.gatech.edu/program/"
+    jobtitle: Online Masters in Computer Science Candidate
+    resumeurl:
+        name: Resume
+        url: /gatech-resume
+    coverletterurl: 
+        name: Purpose Letter
+        url: /hu-purpose-letter
+    backgroundletterurl: 
+        name: Background Letter
+        url: /hu-purpose-letter
+    coverletter:
+        greetings: GA Tech Entrance Committee
