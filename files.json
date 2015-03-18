@@ -20,16 +20,6 @@
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "/blog/archives/index.html",
-        "makepdf" :  "false",
-        "printheaders" : "false"
-    },
-    {
-        "pageurl" :  "/posts/index.html",
-        "makepdf" :  "false",
-        "printheaders" : "false"
-    },
-    {
         "pageurl" :  "/archives/index.html",
         "makepdf" :  "false",
         "printheaders" : "false"
@@ -40,7 +30,17 @@
         "printheaders" : "false"
     },
     {
+        "pageurl" :  "/blog/archives/index.html",
+        "makepdf" :  "false",
+        "printheaders" : "false"
+    },
+    {
         "pageurl" :  "/blog/index.html",
+        "makepdf" :  "false",
+        "printheaders" : "false"
+    },
+    {
+        "pageurl" :  "/posts/index.html",
         "makepdf" :  "false",
         "printheaders" : "false"
     },
@@ -51,18 +51,38 @@
     },
     {
         "pageurl" :  "/hu-resume.html",
-        "makepdf" :  "true",
+        "makepdf" :  "false",
         "printheaders" : "false"
     },
     {
         "pageurl" :  "/hu-motivation-letter.html",
-        "makepdf" :  "true",
+        "makepdf" :  "false",
         "printheaders" : "false"
     },
     {
         "pageurl" :  "/general.html",
         "makepdf" :  "true",
         "printheaders" : "true"
+    },
+    {
+        "pageurl" :  "/gatech.html",
+        "makepdf" :  "false",
+        "printheaders" : "false"
+    },
+    {
+        "pageurl" :  "/gatech-resume.html",
+        "makepdf" :  "false",
+        "printheaders" : "false"
+    },
+    {
+        "pageurl" :  "/gatech-purpose-letter.html",
+        "makepdf" :  "false",
+        "printheaders" : "false"
+    },
+    {
+        "pageurl" :  "/gatech-background.html",
+        "makepdf" :  "false",
+        "printheaders" : "false"
     },
     {
         "pageurl" :  "/files.json",
