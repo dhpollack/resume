@@ -51,12 +51,12 @@
     },
     {
         "pageurl" :  "/hu-resume.html",
-        "makepdf" :  "false",
+        "makepdf" :  "true",
         "printheaders" : "false"
     },
     {
         "pageurl" :  "/hu-motivation-letter.html",
-        "makepdf" :  "false",
+        "makepdf" :  "true",
         "printheaders" : "false"
     },
     {
@@ -71,17 +71,17 @@
     },
     {
         "pageurl" :  "/gatech-resume.html",
-        "makepdf" :  "false",
+        "makepdf" :  "true",
         "printheaders" : "false"
     },
     {
         "pageurl" :  "/gatech-purpose-letter.html",
-        "makepdf" :  "false",
+        "makepdf" :  "true",
         "printheaders" : "false"
     },
     {
         "pageurl" :  "/gatech-background.html",
-        "makepdf" :  "false",
+        "makepdf" :  "true",
         "printheaders" : "false"
     },
     {
