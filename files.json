@@ -5,6 +5,16 @@
         "printheaders" : "false"
     },
     {
+        "pageurl" :  "/quizlet-resume.html",
+        "makepdf" :  "true",
+        "printheaders" : "false"
+    },
+    {
+        "pageurl" :  "/quizlet-cover-letter.html",
+        "makepdf" :  "true",
+        "printheaders" : "false"
+    },
+    {
         "pageurl" :  "/lse-resume.html",
         "makepdf" :  "true",
         "printheaders" : "false"
@@ -20,12 +30,12 @@
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "/archives/index.html",
+        "pageurl" :  "/posts/index.html",
         "makepdf" :  "false",
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "/index.html",
+        "pageurl" :  "/archives/index.html",
         "makepdf" :  "false",
         "printheaders" : "false"
     },
@@ -35,12 +45,12 @@
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "/blog/index.html",
+        "pageurl" :  "/index.html",
         "makepdf" :  "false",
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "/posts/index.html",
+        "pageurl" :  "/blog/index.html",
         "makepdf" :  "false",
         "printheaders" : "false"
     },
