@@ -1,3 +1,19 @@
+quizlet:
+    name: Quizlet
+    jobpostingurl: "https://quizlet.com/jobs/business-operations"
+    jobtitle: Business Operations Manager
+    jobspecificpages:
+        - resumeurl
+        - coverletterurl
+    resumeurl:
+        name: Resume
+        url: /quizlet-resume
+    coverletterurl: 
+        name: Cover Letter (email)
+        url: /quizlet-cover-letter
+    myemail: 2
+    myaddress: 1
+    myphone: 3
 edx:
     name: edX
     jobspecificpages:
@@ -59,8 +75,8 @@ gatech:
     name: Georgia Tech
     jobspecificpages:
         - resumeurl
-        - coverletterurl
         - backgroundletterurl
+        - coverletterurl
     jobpostingurl: "http://www.omscs.gatech.edu/program/"
     jobtitle: Online Masters in Computer Science Candidate
     resumeurl:
@@ -68,9 +84,9 @@ gatech:
         url: /gatech-resume
     coverletterurl: 
         name: Purpose Letter
-        url: /hu-purpose-letter
+        url: /gatech-purpose-letter
     backgroundletterurl: 
         name: Background Letter
-        url: /hu-purpose-letter
+        url: /gatech-background
     coverletter:
         greetings: GA Tech Entrance Committee

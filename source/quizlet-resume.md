@@ -1,30 +1,29 @@
 ---
 layout: resume
-title: David Pollack's Resume - GA Tech OMS CS
+title: David Pollack's Resume - Quizlet
 date: 2015-01-02 00:00
 lang: english
-employer: gatech
-description: "David Pollack's GA Tech resume."
+employer: quizlet
+description: "Resume for the Business Operations position at Quizlet."
 hideid:
+    - '#gre'
     - '#school-hw'
+    - '.gpa-entry'
+    - '#dogecoincom'
+    - '#jqueryi18n'
     - '#wholefoods'
     - '#gmat-4'
     - '#gmat-5'
-    - '#activity5'
-    - '#activity6'
-    - '#activity7'
-    - '#activity9'
 sections:
+    - ethos.md
     - xp.md
     - ed.md
-    - tests.md
     - lang.md
+    - tests.md
     - mooc.md
     - github.md
-    - activities.md
     - footer.md
 xporder:
-    - "#cygnus-div"
     - "#navigant-div"
 sortflag: false
 makepdf: true

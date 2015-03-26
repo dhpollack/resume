@@ -29,7 +29,7 @@ xporder:
     - "#cygnus-div"
     - "#navigant-div"
 sortflag: false
-makepdf: false
+makepdf: true
 comments: false
 sharing: false
 footer: true

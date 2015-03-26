@@ -21,6 +21,8 @@ basic_info:
         - 'Linienstr. 71, 10119 Berlin' 
 
 objectives:
+  quizlet:
+    - I want to utilize my unique set of experiences in financial services consulting domestically and teaching internationally to make a meaning impact on the world via online education.
   duolingo:
     - Inspire others to have the courage to learn and speak a foreign language to make a leap of faith to live in a foreign country.
   general:
@@ -51,6 +53,7 @@ jobs:
     description:
       general: "Created and lead an optional English program for students in the 11th, 12th, and 13th class at the Rütlischule in Neukölln where we guide students through various web apps they can use to improve their English.  Foster a welcoming atmosphere to encourage the students to overcome their fears of speaking with native English speakers."
       duolingo: "Lead an optional English class for students in the 11th, 12th, and 13th class at the Rütlischule in Neukölln.  Teach the students how to use technology to help them learn English with sites such as Quizlet, Duolingo, and Free Rice.  Foster a welcoming atmosphere to encourage the students to overcome their fears of conversating in English with native speakers."
+      quizlet: "Created and lead an optional English program for students in the 11th, 12th, and 13th class at the Rütlischule in Neukölln.  We guide students through various web apps that they can use to improve their English.  Additionally, we foster a welcoming atmosphere to encourage the students to overcome their fears of speaking with native English speakers.  The most popular app among the student by a wide margin is Quizlet."
   -
     id: privatlehrer
     name: Private Tutor
