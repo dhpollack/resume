@@ -41,7 +41,6 @@ lse:
     jobspecificpages:
         - resumeurl
         - coverletterurl
-        - postresponseurl
     jobpostingurl: "http://www.lse.ac.uk/study/graduate/taughtProgrammes2015/MScManagementInformationSystemsAndDigitalInnovation.aspx"
     jobtitle: Masters of Science Candidate
     resumeurl:
@@ -50,10 +49,6 @@ lse:
     coverletterurl: 
         name: Cover Letter
         url: /lse-personal-statement
-    postresponseurl:
-        name: Posting Bullet Points
-        url: /edx-posting-response
-        icon: "fa fa-list"
     coverletter:
         greetings: LSE Entrance Committee
 hu:
@@ -90,3 +85,15 @@ gatech:
         url: /gatech-background
     coverletter:
         greetings: GA Tech Entrance Committee
+deutschkurs:
+    name: Screibkurskurs B2.2 - C1
+    jobspecificpages:
+        - resumeurl
+    jobpostingurl: "http://www.omscs.gatech.edu/program/"
+    jobtitle: Lebenslauf
+    resumeurl:
+        name: David Pollacks Lebenslauf
+        url: /deutschkurs-resume
+    myemail: 4
+    myaddress: 1
+    myphone: 3
