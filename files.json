@@ -30,22 +30,22 @@
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "/index.html",
-        "makepdf" :  "false",
-        "printheaders" : "false"
-    },
-    {
         "pageurl" :  "/blog/index.html",
         "makepdf" :  "false",
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "/blog/archives/index.html",
+        "pageurl" :  "/archives/index.html",
         "makepdf" :  "false",
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "/archives/index.html",
+        "pageurl" :  "/index.html",
+        "makepdf" :  "false",
+        "printheaders" : "false"
+    },
+    {
+        "pageurl" :  "/blog/archives/index.html",
         "makepdf" :  "false",
         "printheaders" : "false"
     },
@@ -126,6 +126,11 @@
     },
     {
         "pageurl" :  "/duolingo.html",
+        "makepdf" :  "true",
+        "printheaders" : "false"
+    },
+    {
+        "pageurl" :  "/deutschkurs-resume.html",
         "makepdf" :  "true",
         "printheaders" : "false"
     },
