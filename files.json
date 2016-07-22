@@ -1,5 +1,15 @@
 [
     {
+        "pageurl" :  "/roqad-resume.html",
+        "makepdf" :  "true",
+        "printheaders" : "false"
+    },
+    {
+        "pageurl" :  "/roqad-cover-letter.html",
+        "makepdf" :  "true",
+        "printheaders" : "false"
+    },
+    {
         "pageurl" :  "/robots.txt",
         "makepdf" :  "false",
         "printheaders" : "false"
@@ -11,6 +21,21 @@
     },
     {
         "pageurl" :  "/quizlet-cover-letter.html",
+        "makepdf" :  "true",
+        "printheaders" : "false"
+    },
+    {
+        "pageurl" :  "/pubnative.html",
+        "makepdf" :  "false",
+        "printheaders" : "false"
+    },
+    {
+        "pageurl" :  "/pubnative-resume.html",
+        "makepdf" :  "true",
+        "printheaders" : "false"
+    },
+    {
+        "pageurl" :  "/pubnative-cover-letter.html",
         "makepdf" :  "true",
         "printheaders" : "false"
     },
@@ -30,7 +55,7 @@
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "/blog/index.html",
+        "pageurl" :  "/blog/archives/index.html",
         "makepdf" :  "false",
         "printheaders" : "false"
     },
@@ -40,17 +65,17 @@
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "/index.html",
-        "makepdf" :  "false",
-        "printheaders" : "false"
-    },
-    {
-        "pageurl" :  "/blog/archives/index.html",
-        "makepdf" :  "false",
-        "printheaders" : "false"
-    },
-    {
         "pageurl" :  "/posts/index.html",
+        "makepdf" :  "false",
+        "printheaders" : "false"
+    },
+    {
+        "pageurl" :  "/blog/index.html",
+        "makepdf" :  "false",
+        "printheaders" : "false"
+    },
+    {
+        "pageurl" :  "/index.html",
         "makepdf" :  "false",
         "printheaders" : "false"
     },
