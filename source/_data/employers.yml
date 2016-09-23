@@ -89,11 +89,44 @@ deutschkurs:
     name: Screibkurskurs B2.2 - C1
     jobspecificpages:
         - resumeurl
-    jobpostingurl: "http://www.omscs.gatech.edu/program/"
+    jobpostingurl: "http://www.gruenderszene.de/jobboerse/aktuell/performance-marketing-manager-mw-18"
     jobtitle: Lebenslauf
     resumeurl:
         name: David Pollacks Lebenslauf
         url: /deutschkurs-resume
+    myemail: 4
+    myaddress: 1
+    myphone: 3
+roqad:
+    name: "Roq.ad"
+    jobspecificpages:
+        - resumeurl
+        - coverletterurl
+    jobpostingurl: "https://www.roq.ad/dt_jobs/business-development-intern-mf/"
+    jobtitle: Business Development Intern
+    resumeurl:
+        name: Resume
+        url: /roqad-resume
+    coverletterurl: 
+        name: Cover Letter
+        url: /roqad-cover-letter
+    myemail: 3
+    myaddress: 1
+    myphone: 3
+pubnative:
+    name: PubNative
+    jobspecificpages:
+        - resumeurl
+    jobpostingurl: "http://pubnative.net/job?id=oB9h3fwO"
+    jobtitle: Ad Ops Working Student (m/f) for PubNative
+    resumeurl:
+        name: Resume
+        url: /pubnative-resume
+    coverletterurl: 
+        name: Cover Letter
+        url: /pubnative-cover-letter
+    coverletter:
+        greetings: Alexander Saveliev
     myemail: 4
     myaddress: 1
     myphone: 3

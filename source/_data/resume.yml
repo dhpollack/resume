@@ -23,6 +23,8 @@ basic_info:
         - 'Linienstr. 71, 10119 Berlin' 
 
 objectives:
+  pubnative:
+    - "I would like to join a firm that allows me to implement the more technical aspects of my course work in real world situations, while I complete my studies.  In the longer term, I would hope to stay on the team and take on more responsibilities.  Relevant courses include: Machine Intelligence II, Multivariate Statistics I & II, Datenanalyse, Statistical Programming Languages"
   quizlet:
     - I want to utilize my unique set of experiences in financial services consulting domestically and teaching internationally to make a meaning impact on the world via online education.
   duolingo:
@@ -33,7 +35,8 @@ objectives:
     - Be curious.  Embrace nervous anticipation.  Always fear failure to try, but never to fail.
   deutschkurs:
     - Bei einem Startup benutze meine tiefgehende und internationelle Erfahrung, ums Unternehmen auf dem nächsten Niveau aufzustiegen.
-
+  roqad:
+    - "I would like to bring my passion for data science and previous experience as a consultant to the Business Development Intern position at Roq.ad."
 jobs:
   -
     id: cygnus
@@ -44,19 +47,19 @@ jobs:
     start_date: 2014-08-01 12:00:00 -0500
     end_date:
     description:
-      general: "Founded an real estate management company to manage HOAs (HomeOwners Associations) in Atlanta.  Responsible for finding, implementing, and maintaining the organization's technological solutions, including but not limited to Google Apps infrastructure, productivity software, company web presence, and payment services.  Collaborate with other cofounders regarding all aspects of the company.  Customer support as needed.  Work 100% remotely."
+      general: "Founded an real estate management company to manage residential and commercial properties in Atlanta, GA.  Responsible for the organization's technological solutions, including but not limited to Google Apps infrastructure, company web presence, and payment services.  Collaborate with other cofounders regarding all strategic aspects of the company.  Work 100% remotely."
       duolingo: "Founded an HOA (Homeowners' Association) management company to manage HOAs in Atlanta.  Responsible for finding technological solutions, including but not limited to paperless post, intra-company communication, and financial services, to modernize a decidedly old-school industry.  Work 100% remotely."
       deutschkurs: "Mitgründer eines Hausbesitzverein Unternehmens, das in Atlanta betreibt.  Verantwortlich für unsere technische Lösungen, manche Kundenbetreuung und die allgemeine Strategie."
   -
     id: tinavg
     name: "Tinavg: Alphabets for Everyone"
-    url: https://www.tinavg.com
+    url: https://tinavg.com
     title: Founder
     location: Berlin
     start_date: 2015-03-01 12:00:00 -0500
     end_date:
     description:
-      general: "Tinavg, This Is Not A Vocabulary Game, utilizes different languages to create a fun, fast-paced pattern matching game that is suitable for all ages.  English, German, Hebrew, and French are currently fully implemented with Arabic, Korean, and Russian also available in some form or another."
+      general: "Tinavg, This Is Not A Vocabulary Game, utilizes different languages to create a fun, fast-paced pattern matching game that is suitable for all ages.  The webapp is constructed on Google Polymer technology stack."
       deutschkurs: "Gründer eine Webapp, die man das Alphabet der Fremdsprachen können lernen lassen.  Englisch, deutsch, hebräsisch und französisch sind komplett implementiert und arabisch, koreanisch und russisch sind in Beta."
   -
     id: rutli
@@ -70,7 +73,7 @@ jobs:
       general: "Lead an optional English program for students in the 11th, 12th, and 13th class at the Rütlischule in Neukölln.  We guide students through various web apps that they can use to improve their English, while encouraging students to overcome their fear of speaking with native English speakers."
       duolingo: "Lead an optional English class for students in the 11th, 12th, and 13th class at the Rütlischule in Neukölln.  Teach the students how to use technology to help them learn English with sites such as Quizlet, Duolingo, and Free Rice.  Foster a welcoming atmosphere to encourage the students to overcome their fears of conversating in English with native speakers."
       quizlet: "Created and lead an optional English program for students in the 11th, 12th, and 13th class at the Rütlischule in Neukölln.  We guide students through various web apps that they can use to improve their English.  Additionally, we foster a welcoming atmosphere to encourage the students to overcome their fears of speaking with native English speakers.  The most popular app among the student by a wide margin is Quizlet."
-      deutschkurs: "Gegründer und Hauptleiter des englischen Progammes, in dem wir die Schülern von der Rütli Schule unterrichten wie man die verschiedene Onlineseiten benutzen kann, um seine Sprachkompetenz zu verbessern."
+      deutschkurs: "Gegründer und Hauptleiter des englischen Progammes, in dem wir die Schülern von der Rütli Schule unterrichten, wie man die verschiedene Onlineseiten benutzen kann, um seine Sprachkompetenz zu verbessern."
   -
     id: privatlehrer
     name: Private Tutor
@@ -82,7 +85,7 @@ jobs:
     description:
       general: "Develop a personalized curriculum to ensure students excel at the GMAT, while mentally preparing students to deal with the stress associated with taking the exam."
       duolingo: "Develop a personalized curriculum to ensure students excel at the GMAT, while minimizing the stress associated with taking such an important entrance exam."
-      deutschkurs: "Selbstständiger Lehrer für den Einstufungstest GMAT, der für MBA Progammen weltweit notwendig ist."
+      deutschkurs: "Selbstständiger Lehrer für den Einstufungstest GMAT, der zu den MBA Progammen weltweit notwendig ist."
   -
     id: prinessinnengarten
     name: Prinessinnengarten
@@ -95,7 +98,7 @@ jobs:
       general: "Worked in a multicultural, multilingual kitchen at a popular community garden in Berlin.  In addition to cooking, my responsibilities included a significant amount of customer service duties in multiple languages with customers from all over the world."
       duolingo: "Ich arbeite im Café am Prinzessinnengarten in der Nähe Moritzplatz.  Meine Verantwortungen sind das Essen kochen, mit den Kunden reden und das Geschirr putzen.  Ich muss auf deutsch und auf englisch mit meinen Kollegen und den Kunden sprechen."
       edx: "Worked in a multicultural, multilingual kitchen at a popular community garden in Berlin.  In addition to cooking, my responsibilities included a significant amount of customer service duties in multiple languages with customers from all over the world."
-      deutschkurs: "Koch in der Küche des schönen gemeinsamen Gartens, der am Moritzplatz liegt. Verantwortlich für Essen kochen, die Küche sauber bleiben und die Kundenbetreuung auf verschieden und häufig verwechelenden Sprachen."
+      deutschkurs: "Koch in der Küche des schönen gemeinsamen Gartens, der am Moritzplatz liegt. Verantwortlich für das Essen kochen, die Küche sauber bleiben und die Kundenbetreuung auf verschieden und häufig verwechelenden Sprachen."
   -
     id: navigant
     name: Navigant
@@ -108,9 +111,10 @@ jobs:
     start_date: 2006-09-01 12:00:00 +0100
     end_date: 2013-04-01 12:00:00 +0100
     description:
-      general: "Completed re-underwrites of over 750 residential home loans for several of the TBTF (Too Big To Fail) US banks in disputes related to the US housing crisis.  Managed and reviewed team members' work product.  Developed software to automate the retrieval of documents, transaction logs, and customer service logs that cut the per-loan prep time by an order of a magnitude.  Performed a wide array of construction management analyses for projects in infrastructure, state-owned international oil companies, and multi-unit housing.  Promoted in 2007 and 2010."
+      general: "Completed re-underwrites of over 750 residential home loans for several of the TBTF (Too Big To Fail) US banks in disputes related to the US housing crisis.  Managed and reviewed team members' work product.  Developed software to automate repetitive tasks that cut the per-loan prep time by an order of a magnitude.  Promoted in 2007 and 2010."
+      generalprev: "Completed re-underwrites of over 750 residential home loans for several of the TBTF (Too Big To Fail) US banks in disputes related to the US housing crisis.  Managed and reviewed team members' work product.  Developed software to automate the retrieval of documents, transaction logs, and customer service logs that cut the per-loan prep time by an order of a magnitude.  Performed a wide array of construction management analyses for projects in infrastructure, state-owned international oil companies, and multi-unit housing.  Promoted in 2007 and 2010."
       edx: "Completed re-underwrites of over 750 residential home loans for top US banks to settle disputes surrounding the validity of the insurance on these loans.  Managed and reviewed team members' work product.  Developed software programs to automate the retrieval of documents, transaction logs, and customer service logs from the client website cutting per-loan prep time by an order of a magnitude.  Promoted in 2007 and 2010."
-      deutschkurs: "Consultant für einen der top consulting Unternehmen in den USA.  In drei Bereichen: Aufbauverwaltung, Finanzberatung und Versicherung gearbeitet.   Verantwortlich für die Entwickelung der Software, die in der Datenverarbeitung benutzt war, den Überprüfungen der missgelungen Hypotheken (\"re-underwriting\") und Teamleitung.  In 2007 und 2010 aufgestiegen war."
+      deutschkurs: "Consultant für einen der top consulting Unternehmen in den USA.  In drei Bereichen: Aufbauverwaltung, Finanzberatung und Versicherung gearbeitet.   Verantwortlich für die Entwickelung der Software, die in der Datenverarbeitung benutzt war, die Überprüfungen der missgelungenden Hypotheken (\"re-underwriting\") und die Teamleitung.  Zweimal, in 2007 und 2010, aufgestiegen war."
   -
     id: joomla
     name: 'Joomla! Google Maps Plugin'
@@ -142,10 +146,13 @@ education:
     degree:
       - Master's Program in Economics and Management Science from
       - MEMS from
-      - Master Studium in Wirtschaft und Managementwissenschaft von
+      - Master Studium in Wirtschafts- und Managementswissenschaft von
     gradyear: 
     start_date: 2015-10-01 12:00:00 +0100
     end_date: 
+    extracirriculars:
+      courses:
+        - Machine Intelligence II, Multivariate Statistics I & II, Datenanalyse, and Statistical Programming Languages.
   -
     id: emory
     name: Emory University
@@ -291,13 +298,13 @@ extras:
           name: Mündlicher Ausdruck 
           score: 'unter 3'
   skills:
-    - 'Working knowledge of Java, Python, CSS, HTML, Javascript, PHP, and (No)SQL'
+    - 'Working knowledge of Python (numpy, pandas, etc), R, Javascript, CSS/HTML, PHP, and (No)SQL'
     - 'Kompetent in HTML, CSS, Javscript, Python, R, (No)SQL und alle die übliche Apps wie MS Office'
   activities:
     - 
-      name: 'Freiwillige Hilfer @ Notunterkunft für Flüchtlinge bei Stadtmission Berlin'
+      name: 'Freiwilliger @ Notunterkunft für Flüchtlinge bei Stadtmission Berlin'
     - 
-      name: 'Freiwillige Arbeiter @ Prinzessinnengarten'
+      name: 'Freiwilliger @ Prinzessinnengarten'
     -
       name: Duolingo
     - 
@@ -317,6 +324,9 @@ extras:
     - 
       name: 2020 All-Stars Fantasy Baseball Podcast
       url: http://2020allstars.da3.net
+    - 
+      name: Tinavg - An Alphabet Learning Webapp
+      url: https://tinavg.com
   github:
     username: dhpollack
     contributions:
