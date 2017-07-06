@@ -1,5 +1,15 @@
 [
     {
+        "pageurl" :  "/snips-resume.html",
+        "makepdf" :  "true",
+        "printheaders" : "false"
+    },
+    {
+        "pageurl" :  "/snips-cover-letter.html",
+        "makepdf" :  "true",
+        "printheaders" : "false"
+    },
+    {
         "pageurl" :  "/roqad-resume.html",
         "makepdf" :  "true",
         "printheaders" : "false"
@@ -16,6 +26,11 @@
     },
     {
         "pageurl" :  "/rasa-resume.html",
+        "makepdf" :  "true",
+        "printheaders" : "false"
+    },
+    {
+        "pageurl" :  "/rasa-cover-letter.html",
         "makepdf" :  "true",
         "printheaders" : "false"
     },
@@ -70,7 +85,7 @@
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "/index.html",
+        "pageurl" :  "/archives/index.html",
         "makepdf" :  "false",
         "printheaders" : "false"
     },
@@ -80,12 +95,12 @@
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "/archives/index.html",
+        "pageurl" :  "/blog/archives/index.html",
         "makepdf" :  "false",
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "/blog/archives/index.html",
+        "pageurl" :  "/index.html",
         "makepdf" :  "false",
         "printheaders" : "false"
     },
@@ -132,6 +147,16 @@
     {
         "pageurl" :  "/files.json",
         "makepdf" :  "false",
+        "printheaders" : "false"
+    },
+    {
+        "pageurl" :  "/eyeem-resume.html",
+        "makepdf" :  "true",
+        "printheaders" : "false"
+    },
+    {
+        "pageurl" :  "/eyeem-cover-letter.html",
+        "makepdf" :  "true",
         "printheaders" : "false"
     },
     {
