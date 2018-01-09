@@ -1,5 +1,10 @@
 [
     {
+        "pageurl" :  "/yeay-resume.html",
+        "makepdf" :  "true",
+        "printheaders" : "false"
+    },
+    {
         "pageurl" :  "/snips-resume.html",
         "makepdf" :  "true",
         "printheaders" : "false"
@@ -85,7 +90,7 @@
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "/archives/index.html",
+        "pageurl" :  "/blog/archives/index.html",
         "makepdf" :  "false",
         "printheaders" : "false"
     },
@@ -95,12 +100,12 @@
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "/blog/archives/index.html",
+        "pageurl" :  "/index.html",
         "makepdf" :  "false",
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "/index.html",
+        "pageurl" :  "/archives/index.html",
         "makepdf" :  "false",
         "printheaders" : "false"
     },

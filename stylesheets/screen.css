@@ -3531,7 +3531,7 @@ article > footer p.meta {
   padding: .4em .8em;
   margin-right: .5em;
   text-decoration: none;
-  color: #6e6e6e;
+  color: #6f6f6f;
   -moz-transition: background-color 0.5s;
   -o-transition: background-color 0.5s;
   -webkit-transition: background-color 0.5s;
@@ -3836,12 +3836,12 @@ p pre code, li pre code {
 }
 .pre-code .gd, html .gist .gist-file .gist-syntax .highlight pre .gd, .highlight code .gd {
   color: #4f4f4f !important;
-  background-color: #edc2c2 !important;
+  background-color: #edc3c2 !important;
   display: inline-block;
 }
 .pre-code .gd .x, html .gist .gist-file .gist-syntax .highlight pre .gd .x, .highlight code .gd .x {
   color: #4f4f4f !important;
-  background-color: #eaafae !important;
+  background-color: #ebafae !important;
   display: inline-block;
 }
 .pre-code .ge, html .gist .gist-file .gist-syntax .highlight pre .ge, .highlight code .ge {
@@ -3858,7 +3858,7 @@ p pre code, li pre code {
 }
 .pre-code .gi .x, html .gist .gist-file .gist-syntax .highlight pre .gi .x, .highlight code .gi .x {
   color: #4f4f4f !important;
-  background-color: #a7d591 !important;
+  background-color: #a7d592 !important;
   display: inline-block;
 }
 .pre-code .gs, html .gist .gist-file .gist-syntax .highlight pre .gs, .highlight code .gs {
