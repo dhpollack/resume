@@ -1,3 +1,63 @@
+yeay:
+    name: "Yeay - Sell It With Video"
+    jobspecificpages:
+        - resumeurl
+    jobpostingurl: "http://yeay.com/jobs/"
+    jobtitle: ML Intern
+    resumeurl:
+        name: Resume
+        url: /yeay-resume
+    myemail: 4
+    myaddress: 1
+    myphone: 3
+snips:
+    name: "Snips - AI Voice Platform"
+    jobspecificpages:
+        - resumeurl
+        - coverletterurl
+    jobpostingurl: "https://snips.ai/jobs/"
+    jobtitle: Speech Recognition Intern
+    resumeurl:
+        name: Resume
+        url: /snips-resume
+    coverletterurl: 
+        name: Cover Letter
+        url: /assets/pdfs/snips-cover-letter-gdoc-a4.pdf
+    myemail: 4
+    myaddress: 1
+    myphone: 3
+eyeem:
+    name: "EyeEm - Authentic Stock Photos and Royalty-Free Images"
+    jobspecificpages:
+        - resumeurl
+        - coverletterurl
+    jobpostingurl: "https://www.eyeem.com/jobs"
+    jobtitle: Computer Vision Intern
+    resumeurl:
+        name: Resume
+        url: /eyeem-resume
+    coverletterurl: 
+        name: Cover Letter
+        url: /assets/pdfs/eyeem-cover-letter-gdoc-a4.pdf
+    myemail: 4
+    myaddress: 1
+    myphone: 3
+rasa:
+    name: "Rasa - Open-Source Conversational AI"
+    jobspecificpages:
+        - resumeurl
+        - coverletterurl
+    jobpostingurl: "https://rasa.breezy.hr/p/a79fbe3a6818-machine-learning-intern"
+    jobtitle: Machine Learning Intern
+    resumeurl:
+        name: Resume
+        url: /rasa-resume
+    coverletterurl: 
+        name: Cover Letter
+        url: /rasa-cover-letter
+    myemail: 4
+    myaddress: 1
+    myphone: 3
 quizlet:
     name: Quizlet
     jobpostingurl: "https://quizlet.com/jobs/business-operations"
@@ -127,6 +187,18 @@ pubnative:
         url: /pubnative-cover-letter
     coverletter:
         greetings: Alexander Saveliev
+    myemail: 4
+    myaddress: 1
+    myphone: 3
+lxmls:
+    name: "Lisbon Machine Learning School"
+    jobspecificpages:
+        - resumeurl
+    jobpostingurl: "http://lxmls.it.pt/2017/"
+    jobtitle: Applicant
+    resumeurl:
+        name: Resume
+        url: /lxmls-resume
     myemail: 4
     myaddress: 1
     myphone: 3

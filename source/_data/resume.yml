@@ -37,7 +37,20 @@ objectives:
     - Bei einem Startup benutze meine tiefgehende und internationelle Erfahrung, ums Unternehmen auf dem nächsten Niveau aufzustiegen.
   roqad:
     - "I would like to bring my passion for data science and previous experience as a consultant to the Business Development Intern position at Roq.ad."
+  lxmls:
+    - Further develop my machine learning knowledge in the area of Natural Language Processing
 jobs:
+  -
+    id: yeay
+    name: YEAY GmbH 
+    url: https://yeay.com/
+    title: "Machine Learning Engineer"
+    location: Berlin
+    start_date: 2018-01-15 12:00:00 -0500
+    end_date:
+    description:
+      general: "My primary role requires object recognition on videos.  I primarily utilize the Facebook Detectron library, but also have experimented with other libraries such as YOLO. For data prep this includes writing scripts to translate between various annotation formats (PASCAL, COCO, YOLO) and add missing fields such as segmentation naively or algorithmically (i.e. GrabCut).  Additionally, I dockerized my solution to make it more portable."
+      deutschkurs: "Hauptsächlich arbeite ich als Machinelles Lernens Ingenieur für Objekte Erkennung auf Videos.  Ich benutzte die Facebook Detectron Library aber habe mit anderen Lösungen zum Beispiel YOLO auch experimentiert.  Bei der Datumvorbereitung entwickle ich Scripts um zwischen die verschienden annotationen Formatten zu übersetzen und abhängigenden Fields zum Beispiel Segmentation hinzufügen.  Ich habe die Lösung für production gedockerized."
   -
     id: cygnus
     name: Cygnus Association Management
@@ -53,11 +66,11 @@ jobs:
   -
     id: tinavg
     name: "Tinavg: Alphabets for Everyone"
-    url: https://tinavg.com
+    url: https://tinavg.da3.net
     title: Founder
     location: Berlin
     start_date: 2015-03-01 12:00:00 -0500
-    end_date:
+    end_date: 2016-12-31 12:00:00 -0500
     description:
       general: "Tinavg, This Is Not A Vocabulary Game, utilizes different languages to create a fun, fast-paced pattern matching game that is suitable for all ages.  The webapp is constructed on Google Polymer technology stack."
       deutschkurs: "Gründer eine Webapp, die man das Alphabet der Fremdsprachen können lernen lassen.  Englisch, deutsch, hebräsisch und französisch sind komplett implementiert und arabisch, koreanisch und russisch sind in Beta."
@@ -68,7 +81,7 @@ jobs:
     title: Volunteer Program Director
     location: Berlin
     start_date: 2014-01-14 12:00:00 +0100
-    end_date:
+    end_date: 2016-07-31 12:00:00 -0500
     description:
       general: "Lead an optional English program for students in the 11th, 12th, and 13th class at the Rütlischule in Neukölln.  We guide students through various web apps that they can use to improve their English, while encouraging students to overcome their fear of speaking with native English speakers."
       duolingo: "Lead an optional English class for students in the 11th, 12th, and 13th class at the Rütlischule in Neukölln.  Teach the students how to use technology to help them learn English with sites such as Quizlet, Duolingo, and Free Rice.  Foster a welcoming atmosphere to encourage the students to overcome their fears of conversating in English with native speakers."
@@ -298,13 +311,16 @@ extras:
           name: Mündlicher Ausdruck 
           score: 'unter 3'
   skills:
-    - 'Working knowledge of Python (numpy, pandas, etc), R, Javascript, CSS/HTML, PHP, and (No)SQL'
+    - 'Proficiency in Linux and Python (numpy, tensorflow, keras, pytorch, etc).  Exposure to Scala, R, Javascript, CSS/HTML, and (No)SQL'
     - 'Kompetent in HTML, CSS, Javscript, Python, R, (No)SQL und alle die übliche Apps wie MS Office'
+    - 'Proficiency in Deep Learning (pytorch, tensorflow, keras, scipy, etc).  Exposure to Scala (Hadoop/Spark) and R.'
   activities:
     - 
       name: 'Freiwilliger @ Notunterkunft für Flüchtlinge bei Stadtmission Berlin'
+      url: http://www.berliner-stadtmission.de/fluechtlinge
     - 
       name: 'Freiwilliger @ Prinzessinnengarten'
+      url: http://prinzessinnengarten.net/
     -
       name: Duolingo
     - 
@@ -317,6 +333,7 @@ extras:
       name: 'Budget Advisor @ Habitat for Humanity'
     - 
       name: 'MoBro @ Movember'
+      url: https://movember.com/
     - 
       name: 'Green Market Volunteer @ Piedmont Park'
     - 
@@ -326,10 +343,61 @@ extras:
       url: http://2020allstars.da3.net
     - 
       name: Tinavg - An Alphabet Learning Webapp
-      url: https://tinavg.com
+      url: https://tinavg.da3.net
   github:
     username: dhpollack
     contributions:
+      -
+        name: pytorch/pytorch
+        description: "Tensors and Dynamic neural networks in Python with strong GPU acceleration" 
+        url: https://github.com/pytorch/pytorch
+        prs:
+          -
+            pullnumber: 3505
+            title: "improvements to ModuleList and ParameterList classes"
+            url: https://github.com/pytorch/pytorch/pull/3505
+          -
+            pullnumber: 2657
+            title: "Add PadNd functions"
+            url: https://github.com/pytorch/pytorch/pull/2657
+      -
+        name: pytorch/audio
+        description: "Audio library for PyTorch" 
+        url: https://github.com/pytorch/audio
+        prs:
+          -
+            pullnumber: 16
+            title: "mu-law companding transform"
+            url: https://github.com/pytorch/audio/pull/16
+          -
+            pullnumber: 15
+            title: "add MEL spectrograms transform and fixed a few tests"
+            url: https://github.com/pytorch/audio/pull/15
+          -
+            pullnumber: 13
+            title: "update save/load to prevent bad inputs"
+            url: https://github.com/pytorch/audio/pull/13
+          -
+            pullnumber: 11
+            title: "basic transforms and two datasets"
+            url: https://github.com/pytorch/audio/pull/11
+          -
+            pullnumber: 10
+            title: "add gitignore"
+            url: https://github.com/pytorch/audio/pull/10
+          -
+            pullnumber: 4
+            title: "bytes function requires type"
+            url: https://github.com/pytorch/audio/pull/4
+      -
+        name: rasa_nlu
+        description: "turn natural language into structured data" 
+        url: https://github.com/RasaHQ/rasa_nlu
+        prs:
+          -
+            pullnumber: 443
+            title: "add sklearn-crfsuite install instructions"
+            url: https://github.com/RasaHQ/rasa_nlu/pull/443
       -
         name: edX
         description: "The open platform that powers edx.org, one of the top online education platforms in the world."
@@ -383,6 +451,22 @@ extras:
             url: https://github.com/wikimedia/jquery.i18n/pull/71
   moocs:
     certificates:
+      -
+        id: algospt1
+        name: 'Algorithms: Design and Analysis Part 1'
+        institution: Stanford University
+        cert: Unofficial
+        platform: Coursera
+        date: 2016-09-23 12:00:00 +0100
+        certurl: https://drive.google.com/open?id=0Bwx922rqjhoWXzY1RmVqNzRXbW8
+      -
+        id: socnet
+        name: 'Social and Economic Networks: Models and Analysis'
+        institution: Stanford University
+        cert: Unofficial
+        platform: Coursera
+        date: 2016-09-20 12:00:00 +0100
+        certurl: https://drive.google.com/open?id=0Bwx922rqjhoWam41bmdmVnhNSjg
       -
         id: irrational
         name: A Beginner's Guide to Irrational Behavior

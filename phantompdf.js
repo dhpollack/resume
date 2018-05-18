@@ -8,7 +8,7 @@
 var RenderUrlsToFile, arrayOfUrls, arrayOfPaperSizes, pathToRender, jsonFile, baseUrl, headerFooter, system;
 
 pathToRender = "source/assets/pdfs/";
-baseUrl = "http://resume-dhpollack.c9users.io";
+baseUrl = "http://resume.da3.net";
 jsonFile = baseUrl + "/files.json";
 
 
