@@ -95,17 +95,17 @@
         "printheaders" : "false"
     },
     {
+        "pageurl" :  "/archives/index.html",
+        "makepdf" :  "false",
+        "printheaders" : "false"
+    },
+    {
         "pageurl" :  "/blog/index.html",
         "makepdf" :  "false",
         "printheaders" : "false"
     },
     {
         "pageurl" :  "/blog/archives/index.html",
-        "makepdf" :  "false",
-        "printheaders" : "false"
-    },
-    {
-        "pageurl" :  "/archives/index.html",
         "makepdf" :  "false",
         "printheaders" : "false"
     },
@@ -196,6 +196,16 @@
     },
     {
         "pageurl" :  "/deutschkurs-resume.html",
+        "makepdf" :  "true",
+        "printheaders" : "false"
+    },
+    {
+        "pageurl" :  "/deeplearning-resume.html",
+        "makepdf" :  "true",
+        "printheaders" : "false"
+    },
+    {
+        "pageurl" :  "/deeplearning-cover-letter.html",
         "makepdf" :  "true",
         "printheaders" : "false"
     },
