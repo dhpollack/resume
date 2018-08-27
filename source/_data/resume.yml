@@ -49,7 +49,7 @@ jobs:
     start_date: 2018-01-15 12:00:00 -0500
     end_date:
     description:
-      general: "My primary role requires object recognition on videos.  I primarily utilize the Facebook Detectron library, but also have experimented with other libraries such as YOLO. For data prep this includes writing scripts to translate between various annotation formats (PASCAL, COCO, YOLO) and add missing fields such as segmentation naively or algorithmically (i.e. GrabCut).  Additionally, I dockerized my solution to make it more portable."
+      general: "My primary role was to use object recognition on videos to identify different classes of clothing.  I utilized a Mask R-CNN-based network with custom additions for blur detection to select the clearest frames.  Data prep included finding an appropriate dataset, writing scripts to translate between various annotation formats (PASCAL, COCO, YOLO) and add missing fields such as segmentation naively or algorithmically (i.e. GrabCut).  Additionally, I dockerized my solution to make it more portable."
       deutschkurs: "Hauptsächlich arbeite ich als Machinelles Lernens Ingenieur für Objekte Erkennung auf Videos.  Ich benutzte die Facebook Detectron Library aber habe mit anderen Lösungen zum Beispiel YOLO auch experimentiert.  Bei der Datumvorbereitung entwickle ich Scripts um zwischen die verschienden annotationen Formatten zu übersetzen und abhängigenden Fields zum Beispiel Segmentation hinzufügen.  Ich habe die Lösung für production gedockerized."
   -
     id: cygnus
@@ -344,6 +344,8 @@ extras:
     - 
       name: Tinavg - An Alphabet Learning Webapp
       url: https://tinavg.da3.net
+    - 
+      name: Bouldering
   github:
     username: dhpollack
     contributions:
@@ -365,6 +367,18 @@ extras:
         description: "Audio library for PyTorch" 
         url: https://github.com/pytorch/audio
         prs:
+          -
+            pullnumber: 59
+            title: "allow loading with offsets and num_frames and saving specified bit precision"
+            url: https://github.com/pytorch/audio/pull/59
+          -
+            pullnumber: 58
+            title: "torch.cos not implemented for LongTensor fix"
+            url: https://github.com/pytorch/audio/pull/58
+          -
+            pullnumber: 23
+            title: "pytorch implementation of MEL spectrograms (no librosa req'd)"
+            url: https://github.com/pytorch/audio/pull/23
           -
             pullnumber: 16
             title: "mu-law companding transform"
@@ -419,27 +433,6 @@ extras:
             pullnumber: 1286
             title: "COMMON_ENABLE_BASIC_AUTH to False in ansible/comment/defaults/main.yml"
             url: https://github.com/edx/configuration/pull/1286
-      -
-        name: dogecoin.com
-        description: "The website site for the popular cryptocurrency known as Dogecoin."
-        url: https://github.com/dogecoin/dogecoin.com
-        prs:
-          -
-            pullnumber: 46
-            title: "initial internationalization commit with jquery.i18n plugin"
-            url: https://github.com/dogecoin/dogecoin.com/pull/46
-          -
-            pullnumber: 48
-            title: "added internationalization back to main page"
-            url: https://github.com/dogecoin/dogecoin.com/pull/48
-          -
-            pullnumber: 49
-            title: "changes noted by user Moldu and .gitignore for testing"
-            url: https://github.com/dogecoin/dogecoin.com/pull/49
-          -
-            pullnumber: 59
-            title: "Added Gemfile for easier testing with Jekyll"
-            url: https://github.com/dogecoin/dogecoin.com/pull/59
       -
         name: jquery.i18n
         description: "A jQuery based internationalization library." 

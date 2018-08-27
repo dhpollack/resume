@@ -1,3 +1,19 @@
+deeplearning:
+    name: "Deep Learning Engineer"
+    jobspecificpages:
+        - resumeurl
+        - coverletterurl
+    jobpostingurl: "http://resume.da3.net/deeplearning"
+    jobtitle: Machine Learning Engineer
+    resumeurl:
+        name: Resume
+        url: /deeplearning-resume
+    coverletterurl: 
+        name: Cover Letter
+        url: /deeplearning-cover-letter
+    myemail: 4
+    myaddress: 1
+    myphone: 3
 yeay:
     name: "Yeay - Sell It With Video"
     jobspecificpages:
