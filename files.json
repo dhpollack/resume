@@ -85,17 +85,12 @@
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "/posts/index.html",
-        "makepdf" :  "false",
-        "printheaders" : "false"
-    },
-    {
-        "pageurl" :  "/index.html",
-        "makepdf" :  "false",
-        "printheaders" : "false"
-    },
-    {
         "pageurl" :  "/archives/index.html",
+        "makepdf" :  "false",
+        "printheaders" : "false"
+    },
+    {
+        "pageurl" :  "/blog/archives/index.html",
         "makepdf" :  "false",
         "printheaders" : "false"
     },
@@ -105,7 +100,12 @@
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "/blog/archives/index.html",
+        "pageurl" :  "/index.html",
+        "makepdf" :  "false",
+        "printheaders" : "false"
+    },
+    {
+        "pageurl" :  "/posts/index.html",
         "makepdf" :  "false",
         "printheaders" : "false"
     },
