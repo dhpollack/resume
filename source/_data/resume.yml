@@ -47,7 +47,7 @@ jobs:
     title: "Machine Learning Engineer"
     location: Berlin
     start_date: 2018-01-15 12:00:00 -0500
-    end_date:
+    end_date: 2018-06-25 12:00:00 -0500
     description:
       general: "My primary role was to use object recognition on videos to identify different classes of clothing.  I utilized a Mask R-CNN-based network with custom additions for blur detection to select the clearest frames.  Data prep included finding an appropriate dataset, writing scripts to translate between various annotation formats (PASCAL, COCO, YOLO) and add missing fields such as segmentation naively or algorithmically (i.e. GrabCut).  Additionally, I dockerized my solution to make it more portable."
       deutschkurs: "Hauptsächlich arbeite ich als Machinelles Lernens Ingenieur für Objekte Erkennung auf Videos.  Ich benutzte die Facebook Detectron Library aber habe mit anderen Lösungen zum Beispiel YOLO auch experimentiert.  Bei der Datumvorbereitung entwickle ich Scripts um zwischen die verschienden annotationen Formatten zu übersetzen und abhängigenden Fields zum Beispiel Segmentation hinzufügen.  Ich habe die Lösung für production gedockerized."
@@ -162,7 +162,7 @@ education:
       - Master Studium in Wirtschafts- und Managementswissenschaft von
     gradyear: 
     start_date: 2015-10-01 12:00:00 +0100
-    end_date: 
+    end_date: 2018-07-26 12:00:00 +0100
     extracirriculars:
       courses:
         - Machine Intelligence II, Multivariate Statistics I & II, Datenanalyse, and Statistical Programming Languages.
