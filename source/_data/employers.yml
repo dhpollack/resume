@@ -1,3 +1,15 @@
+deeplearningde:
+    name: "Ingenieur Maschinelles Lernen"
+    jobspecificpages:
+        - resumeurl
+    jobpostingurl: "http://resume.da3.net/deeplearningde"
+    jobtitle: Ingenieur Maschinelles Lernen
+    resumeurl:
+        name: Resume
+        url: /deeplearningde-resume
+    myemail: 3
+    myaddress: 1
+    myphone: 3
 deeplearning:
     name: "Deep Learning Engineer"
     jobspecificpages:

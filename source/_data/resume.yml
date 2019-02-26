@@ -41,6 +41,28 @@ objectives:
     - Further develop my machine learning knowledge in the area of Natural Language Processing
 jobs:
   -
+    id: fellowshipai
+    name: Fellowship.ai
+    url: https://fellowship.ai/
+    title: "Machine Learning Fellow"
+    location: Berlin
+    start_date: 2019-01-07 12:00:00 -0500
+    end_date: 
+    description:
+      general: "Once again, I developed an end-to-end solution to do image classification on a fashion dataset.  We achieved state of the art results in the task classifying a fashion style from the Fashion14 dataset.  In preparation for a weekly reading group, I optimized an implementation of memory networks on the babi question answer dataset.  Worked on implementing semi-supervised semantic segmentation utilizing Deep Extreme Cut and DeepLab-v3+."
+      deutschkurs: "Ich entwickelte nochmal ein end-to-end Netzwerk um die Modebilder, die in der Datummenge, Fashion 14 inhält sind, zu erkennen.  Wir haben mit unserer Lösung ein SoTA (\"state of the art\") Ergebnis erzielt.  Während der Preparation einer Lesungsgruppe habe ich auch eine Abwicklung eines Memory Netzwerk optimisiert.  Wir haben auch auf Semantic Segmentation gearbeitet."
+  -
+    id: torchaudio
+    name: PyTorch Audio
+    url: https://github.com/pytorch/audio
+    title: "Lead Developer"
+    location: Berlin
+    start_date: 2017-06-12 12:00:00 -0500
+    end_date: 
+    description:
+      general: "I am the lead developer for PyTorch's official audio loading library, torchaudio.  I work directly with the PyTorch team at Facebook on this project.  I have implemented input error checking testing, audio datasets, variable length input collate functions, audio IO funcationality via SoX (Sound eXchange), and added audio transformations (both implemented directly in PyTorch and using PyTorch's c++ hooks for SoX's effects chain).  Additionally, I transferred the main PyTorch project's code flaking and documentation standards to this project.  In October 2018, I was invited to the PyTorch developer conference for my contributions to the project."
+      deutschkurs: "Hauptentwickler des PyTorch audio einladen library."
+  -
     id: yeay
     name: YEAY GmbH 
     url: https://yeay.com/
@@ -155,14 +177,16 @@ education:
   -
     id: humboldt
     name: Humboldt Universität
-    url: https://www.hu-berlin.de/
+    url: https://www.wiwi.hu-berlin.de/de/international/mems/
     degree:
       - Master's Program in Economics and Management Science from
       - MEMS from
       - Master Studium in Wirtschafts- und Managementswissenschaft von
-    gradyear: 
+    gradyear: 2018
     start_date: 2015-10-01 12:00:00 +0100
     end_date: 2018-07-26 12:00:00 +0100
+    gpa:
+      overall: 2.1
     extracirriculars:
       courses:
         - Machine Intelligence II, Multivariate Statistics I & II, Datenanalyse, and Statistical Programming Languages.

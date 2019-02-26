@@ -22,6 +22,6 @@ I am involved in the ML open source community as an [author](https://github.com/
 
 In the summer of 2018, I received an MSc in Economics with a specialization in Quantitative Methods from Humboldt Universität.  
 
-My current personal summer projects are widing the scope of the torchaudio project to allow for simpler data augmentation with tighter c++ integrating into [SoX](http://sox.sourceforge.net/) and learning to write CUDA extensions in PyTorch.  As for the future, I am looking to work with a cohesive group of ML engineers to solve the latest problems in audio, video, or NLP.  
+My current personal projects are widing the scope of the torchaudio project to allow for simpler data augmentation with tighter c++ integrating into [SoX](http://sox.sourceforge.net/) and learning to write CUDA extensions in PyTorch.  As for the future, I am looking to work with a cohesive group of ML engineers to solve the latest problems in audio, video, or NLP.  
 
-Lastly, I am a C1-level German speaker, which is something I'm proud of because I did not speak a word of German before arriving in Germany in 2013.
+Lastly, I am a C1-level German speaker, which is something I'm proud of because I did not speak a word of German before arriving in Germany in 2013.  My other hobbies include bouldering, cycling, pilates, travelling, and cooking.
