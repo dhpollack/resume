@@ -85,7 +85,12 @@
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "/posts/index.html",
+        "pageurl" :  "/archives/index.html",
+        "makepdf" :  "false",
+        "printheaders" : "false"
+    },
+    {
+        "pageurl" :  "/index.html",
         "makepdf" :  "false",
         "printheaders" : "false"
     },
@@ -100,12 +105,7 @@
         "printheaders" : "false"
     },
     {
-        "pageurl" :  "/archives/index.html",
-        "makepdf" :  "false",
-        "printheaders" : "false"
-    },
-    {
-        "pageurl" :  "/index.html",
+        "pageurl" :  "/posts/index.html",
         "makepdf" :  "false",
         "printheaders" : "false"
     },
@@ -196,6 +196,11 @@
     },
     {
         "pageurl" :  "/deutschkurs-resume.html",
+        "makepdf" :  "true",
+        "printheaders" : "false"
+    },
+    {
+        "pageurl" :  "/deeplearningde-resume.html",
         "makepdf" :  "true",
         "printheaders" : "false"
     },
