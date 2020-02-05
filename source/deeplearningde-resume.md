@@ -38,6 +38,8 @@ sections:
     - activities.md
     - footer.md
 xporder:
+    - "#fellowshipai-div"
+    - "#torchaudio-div"
     - "#yeay-div"
     - "#cygnus-div"
     - "#rutli-div"

@@ -38,6 +38,10 @@ sections:
     - activities.md
     - footer.md
 xporder:
+    - "#solvemate-div"
+    - "#i2x-div"
+    - "#fellowshipai-div"
+    - "#torchaudio-div"
     - "#yeay-div"
     - "#cygnus-div"
     - "#rutli-div"
